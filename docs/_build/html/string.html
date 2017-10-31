@@ -1,0 +1,283 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>String &mdash; pydu  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="pydu  documentation" href="index.html"/>
+        <link rel="prev" title="Set" href="set.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> pydu
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="archive.html">Archive</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dict.html">Dict</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellanea</a></li>
+<li class="toctree-l1"><a class="reference internal" href="set.html">Set</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">String</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pydu</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>String</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/string.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="string">
+<h1>String<a class="headerlink" href="#string" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="pydu.string.safeunicode">
+<code class="descclassname">pydu.string.</code><code class="descname">safeunicode</code><span class="sig-paren">(</span><em>obj</em>, <em>encoding='utf-8'</em><span class="sig-paren">)</span><a class="headerlink" href="#pydu.string.safeunicode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts any given object to unicode string.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pydu.string</span> <span class="k">import</span> <span class="n">safeunicode</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">safeunicode</span><span class="p">(</span><span class="s1">&#39;hello&#39;</span><span class="p">)</span>
+<span class="go">u&#39;hello&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">safeunicode</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="go">u&#39;2&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">safeunicode</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\xe4\xb8\xad\xe6\x96\x87</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="go">u&#39;中文&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pydu.string.lstrips">
+<code class="descclassname">pydu.string.</code><code class="descname">lstrips</code><span class="sig-paren">(</span><em>text</em>, <em>remove</em><span class="sig-paren">)</span><a class="headerlink" href="#pydu.string.lstrips" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes the string <code class="docutils literal"><span class="pre">remove</span></code> from the left of <code class="docutils literal"><span class="pre">text</span></code>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pydu.string</span> <span class="k">import</span> <span class="n">lstrips</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lstrips</span><span class="p">(</span><span class="s1">&#39;foobar&#39;</span><span class="p">,</span> <span class="s1">&#39;foo&#39;</span><span class="p">)</span>
+<span class="go">&#39;bar&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lstrips</span><span class="p">(</span><span class="s1">&#39;FOOBARBAZ&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;FOO&#39;</span><span class="p">,</span> <span class="s1">&#39;BAR&#39;</span><span class="p">])</span>
+<span class="go">&#39;BAZ&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">lstrips</span><span class="p">(</span><span class="s1">&#39;FOOBARBAZ&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;BAR&#39;</span><span class="p">,</span> <span class="s1">&#39;FOO&#39;</span><span class="p">])</span>
+<span class="go">&#39;BARBAZ&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pydu.string.rstrips">
+<code class="descclassname">pydu.string.</code><code class="descname">rstrips</code><span class="sig-paren">(</span><em>text</em>, <em>remove</em><span class="sig-paren">)</span><a class="headerlink" href="#pydu.string.rstrips" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes the string <code class="docutils literal"><span class="pre">remove</span></code> from the right of <code class="docutils literal"><span class="pre">text</span></code>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pydu.string</span> <span class="k">import</span> <span class="n">rstrips</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">rstrips</span><span class="p">(</span><span class="s1">&#39;foobar&#39;</span><span class="p">,</span> <span class="s1">&#39;bar&#39;</span><span class="p">)</span>
+<span class="go">&#39;foo&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="pydu.string.strips">
+<code class="descclassname">pydu.string.</code><code class="descname">strips</code><span class="sig-paren">(</span><em>text</em>, <em>remove</em><span class="sig-paren">)</span><a class="headerlink" href="#pydu.string.strips" title="Permalink to this definition">¶</a></dt>
+<dd><p>Removes the string <code class="docutils literal"><span class="pre">remove</span></code> from the both sides of <code class="docutils literal"><span class="pre">text</span></code>.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pydu.string</span> <span class="k">import</span> <span class="n">strips</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">strips</span><span class="p">(</span><span class="s1">&#39;foobarfoo&#39;</span><span class="p">,</span> <span class="s1">&#39;foo&#39;</span><span class="p">)</span>
+<span class="go">&#39;bar&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="set.html" class="btn btn-neutral" title="Set" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Prodesire.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

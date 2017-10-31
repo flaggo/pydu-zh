@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-01 00:17+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../dict.rst:2
+msgid "Dict"
+msgstr ""
+
+#: ../../dict.rst:6
+msgid ""
+"A AttrDict object is like a dictionary except ``obj.foo`` can be used in "
+"addition to ``obj['foo']``."
+msgstr ""
+
+#: ../../dict.rst:26
+msgid ""
+"A case-insensitive ``dict``-like object. Implements all methods and "
+"operations of ``collections.MutableMapping`` as well as dict's ``copy``. "
+"Also provides ``lower_items``. All keys are expected to be strings. The "
+"structure remembers the case of the last key to be set, and "
+"``iter(instance)``, ``keys()``, ``items()``, ``iterkeys()``, and "
+"``iteritems()`` will contain case-sensitive keys."
+msgstr ""
+
+#: ../../dict.rst:45
+msgid "Dictionary lookup object."
+msgstr ""
+
+#: ../../dict.rst:58
+msgid ""
+"Attrify obj into ``AttriDict`` or ``list of AttriDict`` if the obj is "
+"list."
+msgstr ""
+

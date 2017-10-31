@@ -1,0 +1,32 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-01 00:17+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../archive.rst:2
+msgid "Archive"
+msgstr ""
+
+#: ../../archive.rst:6
+msgid ""
+"Unpack the tar or zip file at the specified path or file to the directory"
+" specified by ``to_path``. It supports many extensions, like ``.tar``, "
+"``.tar.bz2``, ``.tar.gz``, ``.tgz``, ``.tz2``, ``.zip``. If the file name"
+" of given ``path`` doesn't contain file extension, the ``ext`` parameter "
+"can be specified one of supported extensions to indicate file type."
+msgstr ""
+

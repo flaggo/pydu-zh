@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-01 00:17+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: ../../misc.rst:2
+msgid "Miscellanea"
+msgstr ""
+
+#: ../../misc.rst:6
+msgid ""
+"This func decorates any func which may be hang for a while. The param "
+"``seconds`` should be integer. ``unix_timeout`` can only be used on "
+"``unix-like`` system. In `test.py`, you may write like below:"
+msgstr ""
+
+#: ../../misc.rst:19
+msgid "Ant run `test.py`, will see ``TimeoutError``."
+msgstr ""
+
+#: ../../misc.rst:24
+msgid ""
+"Tracing every statement and line number for running program, like ``bash "
+"-x``. In `test.py`, you may write like below:"
+msgstr ""
+
+#: ../../misc.rst:38
+msgid "Ant run `test.py`, will see below output from console:"
+msgstr ""
+
