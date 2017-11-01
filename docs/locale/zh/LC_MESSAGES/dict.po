@@ -19,13 +19,13 @@ msgstr ""
 
 #: ../../dict.rst:2
 msgid "Dict"
-msgstr ""
+msgstr "Dict 字典"
 
 #: ../../dict.rst:6
 msgid ""
 "A AttrDict object is like a dictionary except ``obj.foo`` can be used in "
 "addition to ``obj['foo']``."
-msgstr ""
+msgstr "AttrDict 对象类似于字典，除了能使用 ``obj['foo']``，还能使用 ``obj.foo``。"
 
 #: ../../dict.rst:26
 msgid ""
@@ -35,15 +35,18 @@ msgid ""
 "structure remembers the case of the last key to be set, and "
 "``iter(instance)``, ``keys()``, ``items()``, ``iterkeys()``, and "
 "``iteritems()`` will contain case-sensitive keys."
-msgstr ""
+msgstr "大小写不敏感类 ``字典`` 对象。实现了 ``collections.MutableMapping`` 的所有"
+"方法和操作，也实现了字典的 ``copy``，此外还提供 ``lower_items``。所有的键都应是"
+"字符串。内部结构会记住最后一次被设置的键的大小写，``iter(instance)``、``keys()``、"
+"``items()``、``iterkeys()`` 和 ``iteritems()`` 将会包含大小写敏感的键。"
 
 #: ../../dict.rst:45
 msgid "Dictionary lookup object."
-msgstr ""
+msgstr "字典查找对象"
 
 #: ../../dict.rst:58
 msgid ""
 "Attrify obj into ``AttriDict`` or ``list of AttriDict`` if the obj is "
 "list."
-msgstr ""
+msgstr "将对象属性化为 ``AttriDict`` 或 包含 ``AttriDict`` 的列表（如果对象为列表）。"
 

@@ -19,21 +19,21 @@ msgstr ""
 
 #: ../../string.rst:2
 msgid "String"
-msgstr ""
+msgstr "String 字符串"
 
 #: ../../string.rst:6
 msgid "Converts any given object to unicode string."
-msgstr ""
+msgstr "将任何对象转换为 unicode 字符串。"
 
 #: ../../string.rst:19
 msgid "Removes the string ``remove`` from the left of ``text``."
-msgstr ""
+msgstr "移除字符串 ``text`` 左侧的 ``remove``。"
 
 #: ../../string.rst:32
 msgid "Removes the string ``remove`` from the right of ``text``."
-msgstr ""
+msgstr "移除字符串 ``text`` 右侧的 ``remove``。"
 
 #: ../../string.rst:41
 msgid "Removes the string ``remove`` from the both sides of ``text``."
-msgstr ""
+msgstr "移除字符串 ``text`` 两边的 ``remove``。"
 

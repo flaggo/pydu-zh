@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-01 00:17+0800\n"
+"POT-Creation-Date: 2017-11-01 22:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr "pydu 文档"
 
 #: ../../index.rst:10
 msgid "About"
-msgstr ""
+msgstr "介绍"
 
 #: ../../index.rst:12
 msgid ""
@@ -31,18 +31,13 @@ msgid ""
 " 3. It is collected from open source projects and created by "
 "contributors."
 msgstr ""
+"**pydu** （python data structures and utils —— python 数据结构和工具）是一个面向Python "
+"2和3的库。它收集自开源项目，也由贡献者创建。"
 
 #: ../../index.rst:15
 msgid "It is with Python versions from **2.7 to 3.6**."
-msgstr ""
+msgstr "它支持Python **2.7 到 3.6**。"
 
-#: ../../index.rst:17
-msgid ""
-"The pydu documentation you're reading is distributed as a single HTML "
-"page."
-msgstr ""
-
-#: ../../index.rst:21
+#: ../../index.rst:18
 msgid "Content"
-msgstr ""
-
+msgstr "内容"

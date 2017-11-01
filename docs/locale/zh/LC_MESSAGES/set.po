@@ -19,9 +19,9 @@ msgstr ""
 
 #: ../../set.rst:2
 msgid "Set"
-msgstr ""
+msgstr "Set 集合"
 
 #: ../../set.rst:6
 msgid "A set which keeps the ordering of the inserted items."
-msgstr ""
+msgstr "保持插入元素有序的集合。"
 

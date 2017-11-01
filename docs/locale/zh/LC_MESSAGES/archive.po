@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../archive.rst:2
 msgid "Archive"
-msgstr ""
+msgstr "Archive 存档"
 
 #: ../../archive.rst:6
 msgid ""
@@ -28,5 +28,6 @@ msgid ""
 "``.tar.bz2``, ``.tar.gz``, ``.tgz``, ``.tz2``, ``.zip``. If the file name"
 " of given ``path`` doesn't contain file extension, the ``ext`` parameter "
 "can be specified one of supported extensions to indicate file type."
-msgstr ""
-
+msgstr "解压tar或zip文件，可指定 ``to_path`` 解压到特定目录。它支持很多文件格式，"
+"包括 ``.tar``、``.tar.bz2``、``.tar.gz``、``.tgz``、``.tz2``、``.zip``。如果"
+"给定的 ``path`` 不包含文件格式，则可指定 ``ext`` 参数来说明文件格式。"
