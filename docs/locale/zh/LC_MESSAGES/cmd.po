@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-11 20:38+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../cmd.rst:2
+msgid "Cmd"
+msgstr "Cmd 命令"
+
+#: ../../cmd.rst:6
+msgid ""
+"Execute cmd based on ``subprocess.Popen``. If ``wait`` is True, "
+"``execute`` will return the tuple of ``(returncode, stdout)``. Note, "
+"``stderr`` is redirected to ``stdout``. If ``wait`` is False, ``execute``"
+" will return object of ``Popen``. ``shell`` is same to parameter of "
+"``Popen``."
+msgstr "基于 ``subprocess.Popen`` 执行命令。如果 ``wait`` 是 True，"
+"``execute`` 将会返回 ``(returncode, stdout)`` 元组。注意， ``stderr`` 被重定向到了 "
+"``stdout``。如果 ``wait`` 是 False， ``execute`` 将会返回 ``Popen`` 对象。"
+"``shell`` 同 ``Popen`` 中的参数一样。"
+
+#: ../../cmd.rst:21
+msgid ""
+"Get command line argv of self python process. On Windows when using "
+"Python 2, ``cmdline_argv`` is implemented by using "
+"``shell32.GetCommandLineArgvW`` to get sys.argv as a list of Unicode "
+"strings. On other system or using Python 3, ``cmdline_argv`` is same to "
+"``sys.argv``."
+msgstr "获取当前Python进程的命令行参数。在Windows上使用Python 2时， "
+"``cmdline_argv`` 的实现是基于 ``shell32.GetCommandLineArgvW`` 获取列表元素为"
+"Unicode字符串形式的sys.argv。而在其他平台或者是使用Python 3时， ``cmdline_argv``"
+"和 ``sys.argv`` 相同。"
+
+#: ../../cmd.rst:26
+msgid "There is an example on PyCharm Python Console:"
+msgstr "以下是在PyCharm的Python控制台中的例子："
+
