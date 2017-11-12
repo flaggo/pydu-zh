@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-12 12:21+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../console.rst:2
+msgid "Console"
+msgstr "Console 控制台"
+
+#: ../../console.rst:6
+msgid ""
+"For Windows, return (width, height) of available window area, (80, 25) if"
+" no console is allocated. For POSIX system, return (width, height) of "
+"console terminal. (80, 25) on IOError, i.e. when no console is allocated."
+" For other system, return (80, 25)."
+msgstr ""
+"对于Windows系统，返回可用窗口区域的(width, height)。如果没有控制台，返回(80, 25)。"
+"对于POSIX系统，返回控制终端的(width, height)。如果遇到IOError，比如没有控制台，返回(80, 25)。"
+"对于其他系统，返回(80, 25)。"
