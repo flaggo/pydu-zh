@@ -45,3 +45,20 @@ msgstr "跟踪运行中程序的每条语句和行号，就像 ``bash -x``。在
 msgid "And run `test.py`, will see below output from console:"
 msgstr "然后运行 `test.py`，将会看到如下控制台输出："
 
+#: ../../misc.rst:54
+msgid ""
+"A simple memoize decorator for functions supporting (hashable) positional"
+" arguments. It also provides a ``cache_clear()`` function for clearing "
+"the cache."
+msgstr ""
+"简单的缓存装饰器，可供支持可哈希的位置参数的函数使用。它还提供 "
+"``cache_clear()`` 方法来清除缓存。"
+
+#: ../../misc.rst:70
+msgid ""
+"A memoize decorator which is disabled by default. It can be activated and"
+" deactivated on request. For efficiency reasons it can be used only "
+"against class methods accepting no arguments."
+msgstr ""
+"缓存装饰器，默认禁用。它能根据需求启用和禁用。为效率起见，它只能用于没有参数的类方法。"
+

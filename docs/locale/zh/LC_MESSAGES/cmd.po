@@ -42,7 +42,7 @@ msgid ""
 "``sys.argv``."
 msgstr "获取当前Python进程的命令行参数。在Windows上使用Python 2时， "
 "``cmdline_argv`` 的实现是基于 ``shell32.GetCommandLineArgvW`` 获取列表元素为"
-"Unicode字符串形式的sys.argv。而在其他平台或者是使用Python 3时， ``cmdline_argv``"
+"Unicode字符串形式的sys.argv。而在其他平台或者是使用Python 3时， ``cmdline_argv`` "
 "和 ``sys.argv`` 相同。"
 
 #: ../../cmd.rst:26

@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-18 10:55+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../inspect.rst:2
+msgid "Inspect"
+msgstr "Inspect 检查"
+
+#: ../../inspect.rst:6
+msgid "Get the names and default values of a function's arguments."
+msgstr "获得函数参数的名称和默认值。"
+
+#: ../../inspect.rst:8
+msgid ""
+"A tuple of four things is returned: (args, varargs, varkw, defaults). "
+"``args`` is a list of the argument names (it may contain nested lists). "
+"``varargs`` and ``varkw`` are the names of the * and ** arguments or "
+"None. ``defaults`` is an n-tuple of the default values of the last n "
+"arguments."
+msgstr ""
+"返回由四个字符串组成的元组：(args, vargs, varkw, defaults)。 "
+"``args`` 是参数名称的列表（可能包含嵌套列表）。 "
+"``varargs`` 和 ``varkw`` 是 * 和 ** 参数的名称，或者为 ``None``。 "
+"``defaults`` 是最后n个参数的默认值组成的元组。"

@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-01 00:17+0800\n"
+"POT-Creation-Date: 2017-11-18 10:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.1\n"
 
 #: ../../string.rst:2
 msgid "String"
@@ -23,17 +23,21 @@ msgstr "String 字符串"
 
 #: ../../string.rst:6
 msgid "Converts any given object to unicode string."
-msgstr "将任何对象转换为 unicode 字符串。"
+msgstr "将任何对象转换为 ``unicode`` 字符串。"
 
 #: ../../string.rst:19
+msgid "Converts any given object to encoded string (default: utf-8)."
+msgstr "将任何对象转换为编码后字符串（默认为 ``utf-8``）。"
+
+#: ../../string.rst:32
 msgid "Removes the string ``remove`` from the left of ``text``."
 msgstr "移除字符串 ``text`` 左侧的 ``remove``。"
 
-#: ../../string.rst:32
+#: ../../string.rst:45
 msgid "Removes the string ``remove`` from the right of ``text``."
 msgstr "移除字符串 ``text`` 右侧的 ``remove``。"
 
-#: ../../string.rst:41
+#: ../../string.rst:54
 msgid "Removes the string ``remove`` from the both sides of ``text``."
 msgstr "移除字符串 ``text`` 两边的 ``remove``。"
 

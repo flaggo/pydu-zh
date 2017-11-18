@@ -8,20 +8,60 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-05 12:02+0800\n"
+"POT-Creation-Date: 2017-11-18 10:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.1\n"
 
 #: ../../compat.rst:2
 msgid "Compat"
 msgstr "Compat 兼容性"
 
 #: ../../compat.rst:6
+msgid "Specify current Python interpreter is Python 2 or 3."
+msgstr "判断当前Python解释器是Python 2还是3。"
+
+#: ../../compat.rst:11
+msgid "Same to ``urlparse.urljoin`` on PY2 or ``urllib.parse.urljoin`` on PY3."
+msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
+
+#: ../../compat.rst:16
+msgid "Return an iter object of dictionary keys."
+msgstr "返回字典键的iter对象。"
+
+#: ../../compat.rst:21
+msgid "Return an iter object of dictionary values."
+msgstr "返回字典值的iter对象。"
+
+#: ../../compat.rst:26
+msgid "Return an iter object of dictionary items."
+msgstr "返回字典键值对的iter对象。"
+
+#: ../../compat.rst:31
+msgid "The text type is ``unicode`` on PY2 or ``str`` on PY3."
+msgstr "在PY2中是 ``unicode``，在PY3中是 ``str``。"
+
+#: ../../compat.rst:36
+msgid "The string types are ``(str, unicode)`` on PY2 or ``(str,)`` on PY3."
+msgstr "在PY2中是 ``(str, unicode)``，在PY3中是 ``(str,)``。"
+
+#: ../../compat.rst:41
+msgid "The numeric types are ``(int, long)`` on PY2 or ``(int,)`` on PY3."
+msgstr "在PY2中是 ``(int, long)``，在PY3中是 ``(int,)``。"
+
+#: ../../compat.rst:46
+msgid "Same to ``itertools.imap`` on PY2 or ``map`` on PY3."
+msgstr "在PY2中是 ``itertools.imap``，在PY3中是 ``map``。"
+
+#: ../../compat.rst:51
+msgid "An implementation independent way of checking for next attribute."
+msgstr "检查是否是可迭代的。"
+
+#: ../../compat.rst:56
 msgid "An implementation independent way of checking for iterables."
 msgstr "检查是否是可迭代的。"
 
