@@ -3,19 +3,18 @@
 # This file is distributed under the same license as the pydu package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-03 23:11+0800\n"
+"POT-Creation-Date: 2017-11-29 18:12+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.1\n"
 
 #: ../../misc.rst:2
 msgid "Miscellanea"
@@ -33,13 +32,12 @@ msgstr "然后运行 `test.py`，将会看到 ``TimeoutError``。"
 
 #: ../../misc.rst:21
 msgid "``unix_timeout`` can only be used on ``unix-like`` system."
-msgstr ""
+msgstr "``unix_timeout`` 只能用于 ``类Unix`` 系统。"
 
 #: ../../misc.rst:26
 msgid ""
-"Tracing every statement and line number for running program, like ``bash -x``."
-"In `test.py`, you may write like below:"
-msgstr "跟踪运行中程序的每条语句和行号，就像 ``bash -x``。在 `test.py`中，你可以这么写："
+"Tracing every statement and line number for running program, like ``bash -x``. In `test.py`, you may write like below:"
+msgstr "跟踪运行中程序的每条语句和行号，就像 ``bash -x`` 。在 `test.py` 中，你可以这么写："
 
 #: ../../misc.rst:40
 msgid "And run `test.py`, will see below output from console:"
@@ -50,15 +48,11 @@ msgid ""
 "A simple memoize decorator for functions supporting (hashable) positional"
 " arguments. It also provides a ``cache_clear()`` function for clearing "
 "the cache."
-msgstr ""
-"简单的缓存装饰器，可供支持可哈希的位置参数的函数使用。它还提供 "
-"``cache_clear()`` 方法来清除缓存。"
+msgstr "简单的缓存装饰器，可供支持可哈希的位置参数的函数使用。它还提供 ``cache_clear()`` 方法来清除缓存。"
 
 #: ../../misc.rst:70
 msgid ""
 "A memoize decorator which is disabled by default. It can be activated and"
 " deactivated on request. For efficiency reasons it can be used only "
 "against class methods accepting no arguments."
-msgstr ""
-"缓存装饰器，默认禁用。它能根据需求启用和禁用。为效率起见，它只能用于没有参数的类方法。"
-
+msgstr "缓存装饰器，默认禁用。它能根据需求启用和禁用。为效率起见，它只能用于没有参数的类方法。"
