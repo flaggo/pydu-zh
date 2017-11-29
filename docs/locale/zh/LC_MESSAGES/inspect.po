@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-18 10:55+0800\n"
+"POT-Creation-Date: 2017-11-29 08:27+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,37 @@ msgid ""
 "None. ``defaults`` is an n-tuple of the default values of the last n "
 "arguments."
 msgstr ""
-"返回由四个字符串组成的元组：(args, vargs, varkw, defaults)。 "
-"``args`` 是参数名称的列表（可能包含嵌套列表）。 "
-"``varargs`` 和 ``varkw`` 是 * 和 ** 参数的名称，或者为 ``None``。 "
+"返回由四个字符串组成的元组：(args, vargs, varkw, defaults)。 ``args`` "
+"是参数名称的列表（可能包含嵌套列表）。 ``varargs`` 和 ``varkw`` 是 * 和 ** 参数的名称，或者为 ``None``。 "
 "``defaults`` 是最后n个参数的默认值组成的元组。"
+
+#: ../../inspect.rst:23
+msgid ""
+"Return a list of the argument names. Arguments such as ``*args`` and "
+"``**kwargs`` are not included."
+msgstr "返回参数名称的列表。诸如 ``*args`` 和 ``*kwargs`` 的参数不被包含。"
+
+#: ../../inspect.rst:36
+msgid ""
+"Return a list of (argument name, default value) tuples. If the argument "
+"does not have a default value, omit it in the tuple. Arguments such as "
+"``*args`` and ``**kwargs`` are also included."
+msgstr "返回(参数名称, 默认值)元组的列表。如果参数没有默认值，则在元组中丢弃。"
+"诸如 ``*args`` 和 ``*kwargs`` 的参数也被包含在内。"
+
+#: ../../inspect.rst:50
+msgid "Check whether or not the func accepts kwargs."
+msgstr "检查函数是否接受关键字参数。"
+
+#: ../../inspect.rst:62
+msgid "Check whether or not the func accepts var args."
+msgstr "检查函数是否接受位置参数。"
+
+#: ../../inspect.rst:74
+msgid "Check whether or the func supports the given parameter."
+msgstr "检查函数是否接受给定参数。"
+
+#: ../../inspect.rst:88
+msgid "Check whether or not the func has any args."
+msgstr "检查函数是否接受任意参数。"
+
