@@ -7,7 +7,7 @@ pydu
 .. image:: https://coveralls.io/repos/github/Prodesire/pydu/badge.svg?branch=master
   :target: https://coveralls.io/github/Prodesire/pydu?branch=master
 
-**pydu** (python library) 是面向Python 2 和 3 的实用数据结构和工具库。它收集自开源项目，也有来自开发者贡献。
+**pydu** (python datastructures and utils) 是面向Python 2 和 3 的实用数据结构和工具库。它收集自开源项目，也有来自开发者贡献。
 
 它支持的Python版本从 **2.7 到 3.6**。
 
@@ -29,7 +29,7 @@ pydu
     ./update_from_pydu
 
   1.2. Windows：
-    .\update_from_pydu.bat
+    .\\update_from_pydu.bat
 
 2. 生成翻译比照文件，执行
   make gettext
