@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-14 23:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../platform.rst:2
+msgid "Platform"
+msgstr "Platform 操作系统"
+
+#: ../../platform.rst:6
+msgid "Judge whether current platform is WINDOWS or not."
+msgstr "判断当前操作系统是否为 ``WINDOWS`` 。"
+
+#: ../../platform.rst:11
+msgid "Judge whether current platform is LINUX or not."
+msgstr "判断当前操作系统是否为 ``LINUX`` 。"
+
+#: ../../platform.rst:16
+msgid "Judge whether current platform is POSIX or not."
+msgstr "判断当前操作系统是否为 ``POSIX`` 。"
+
+#: ../../platform.rst:21
+msgid "Judge whether current platform is DARWIN or not."
+msgstr "判断当前操作系统是否为 ``DARWIN`` 。"
+
+#: ../../platform.rst:26
+msgid "Judge whether current platform is SUNOS or not."
+msgstr "判断当前操作系统是否为 ``SUNOS`` 。"
+
+#: ../../platform.rst:31
+msgid "Judge whether current platform is SMARTOS or not."
+msgstr "判断当前操作系统是否为 ``SMARTOS`` 。"
+
+#: ../../platform.rst:36
+msgid "Judge whether current platform is FREEBSD or not."
+msgstr "判断当前操作系统是否为 ``FREEBSD`` 。"
+
+#: ../../platform.rst:41
+msgid "Judge whether current platform is NETBSD or not."
+msgstr "判断当前操作系统是否为 ``NETBSD`` 。"
+
+#: ../../platform.rst:46
+msgid "Judge whether current platform is OPENBSD or not."
+msgstr "判断当前操作系统是否为 ``OPENBSD`` 。"
+
+#: ../../platform.rst:51
+msgid "Judge whether current platform is AIX or not."
+msgstr "判断当前操作系统是否为 ``AIX`` 。"
+
