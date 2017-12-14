@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-29 08:27+0800\n"
+"POT-Creation-Date: 2017-12-09 22:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,19 @@ msgstr "Network 网络"
 msgid ""
 "Converts mask from /`xx` format to `xxx.xxx.xxx.xxx`. ``mask`` can be "
 "either ``int`` or ``str``."
-msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 "
-"``int`` 或者 ``str``。"
+msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 ``int`` 或者 ``str``。"
 
 #: ../../network.rst:18
-msgid "Judge whether the given ``ip`` is IPV4."
+#, fuzzy
+msgid "Judge whether the given ``ip`` is IPV4 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
+
+#: ../../network.rst:29
+#, fuzzy
+msgid "Judge whether the given ``ip`` is IPV6 address."
+msgstr "判断给定的 ``ip`` 是否为 IPV4。"
+
+#: ../../network.rst:40
+msgid "Get free port which could be bound."
+msgstr ""
 

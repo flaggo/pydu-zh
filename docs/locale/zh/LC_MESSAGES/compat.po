@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-18 10:55+0800\n"
+"POT-Creation-Date: 2017-12-09 22:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,42 +26,56 @@ msgid "Specify current Python interpreter is Python 2 or 3."
 msgstr "判断当前Python解释器是Python 2还是3。"
 
 #: ../../compat.rst:11
-msgid "Same to ``urlparse.urljoin`` on PY2 or ``urllib.parse.urljoin`` on PY3."
+#, fuzzy
+msgid "Same to ``urllib`` on PY2 or ``urllib.request`` on PY3."
 msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
 
 #: ../../compat.rst:16
+#, fuzzy
+msgid "Same to ``urlparse`` on PY2 or ``urllib.parse`` on PY3."
+msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
+
+#: ../../compat.rst:21
+msgid "Same to ``urlparse.urljoin`` on PY2 or ``urllib.parse.urljoin`` on PY3."
+msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
+
+#: ../../compat.rst:26
 msgid "Return an iter object of dictionary keys."
 msgstr "返回字典键的iter对象。"
 
-#: ../../compat.rst:21
+#: ../../compat.rst:31
 msgid "Return an iter object of dictionary values."
 msgstr "返回字典值的iter对象。"
 
-#: ../../compat.rst:26
+#: ../../compat.rst:36
 msgid "Return an iter object of dictionary items."
 msgstr "返回字典键值对的iter对象。"
 
-#: ../../compat.rst:31
+#: ../../compat.rst:41
 msgid "The text type is ``unicode`` on PY2 or ``str`` on PY3."
 msgstr "在PY2中是 ``unicode``，在PY3中是 ``str``。"
 
-#: ../../compat.rst:36
+#: ../../compat.rst:46
 msgid "The string types are ``(str, unicode)`` on PY2 or ``(str,)`` on PY3."
 msgstr "在PY2中是 ``(str, unicode)``，在PY3中是 ``(str,)``。"
 
-#: ../../compat.rst:41
+#: ../../compat.rst:51
 msgid "The numeric types are ``(int, long)`` on PY2 or ``(int,)`` on PY3."
 msgstr "在PY2中是 ``(int, long)``，在PY3中是 ``(int,)``。"
 
-#: ../../compat.rst:46
+#: ../../compat.rst:56
 msgid "Same to ``itertools.imap`` on PY2 or ``map`` on PY3."
 msgstr "在PY2中是 ``itertools.imap``，在PY3中是 ``map``。"
 
-#: ../../compat.rst:51
+#: ../../compat.rst:61
+msgid "Same to ``cmp`` on PY2, but implement on PY3."
+msgstr ""
+
+#: ../../compat.rst:66
 msgid "An implementation independent way of checking for next attribute."
 msgstr "检查是否是可迭代的。"
 
-#: ../../compat.rst:56
+#: ../../compat.rst:71
 msgid "An implementation independent way of checking for iterables."
 msgstr "检查是否是可迭代的。"
 
