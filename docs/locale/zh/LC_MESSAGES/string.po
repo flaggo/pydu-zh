@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-18 10:55+0800\n"
+"POT-Creation-Date: 2017-12-14 23:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,4 +40,18 @@ msgstr "移除字符串 ``text`` 右侧的 ``remove``。"
 #: ../../string.rst:54
 msgid "Removes the string ``remove`` from the both sides of ``text``."
 msgstr "移除字符串 ``text`` 两边的 ``remove``。"
+
+#: ../../string.rst:62
+msgid "Return common prefix of the stings"
+msgstr "返回字符串的共有前缀。"
+
+#: ../../string.rst:71
+msgid "Return common suffix of the stings"
+msgstr "返回字符串的共有后缀"
+
+#: ../../string.rst:80
+msgid ""
+"Sort given string by ascending order. If ``reverse`` is `True`, sorting "
+"given string by descending order."
+msgstr "对给定的字符串进行排序，默认是升序，如果 ``reverse`` 的值为 ``True``，将以降序排序。"
 

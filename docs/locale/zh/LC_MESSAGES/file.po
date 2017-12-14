@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-09 22:17+0800\n"
+"POT-Creation-Date: 2017-12-14 23:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../file.rst:2
 msgid "File"
-msgstr "文件"
+msgstr "File 文件"
 
 #: ../../file.rst:6
 msgid ""
@@ -27,43 +27,41 @@ msgid ""
 "ones. ``mode`` default is ``0o755``. When make an exists path, if "
 "exist_ok is false, ``makedirs`` will raise an ``Exception``. If "
 "``ignore_errors`` which will ignore all errors raised by ``os.makedirs``."
-msgstr "``makedirs`` 基于 ``os.makedirs`` ，它会创建目标文件夹，以及中间文件夹"
-        "（当中间文件夹不存在的时候）。 ``mode`` 默认值为 ``0o75`` ， "
-          "当被创建的文件夹已经存在的时候， 如果 ``eist_ok`` 的值为 ``False`` ， "
-          " ``makedirs`` 将会抛出异常。 如果 ``ignore_errors`` 的值为 ``True`` ， "
-          "所有的异常将会被忽略。"
+msgstr "``makedirs`` 基于 ``os.makedirs`` ，它会创建目标文件夹，以及中间文件夹（当中间文件夹不存在的时候）。 "
+       "``mode`` 默认值为 ``0o75`` ， 当被创建的文件夹已经存在的时候， 如果 ``eist_ok`` 的值为 ``False`` ，"
+       "  ``makedirs`` 将会抛出异常。 如果 ``ignore_errors`` 的值为 ``True`` ， 所有的异常将会被忽略。"
 
-#: ../../file.rst:21
+#: ../../file.rst:20
 msgid "Remove a file or directory."
 msgstr "删除文件或者文件夹。"
 
-#: ../../file.rst:23
+#: ../../file.rst:22
+#, fuzzy
 msgid ""
-"If ``ignore_errors`` is set, errors are ignored; otherwise, if onerror is"
-" set, it is called to handle the error with arguments (func, path, "
-"exc_info) where func is platform and implementation dependent; path is "
-"the argument to that function that caused it to fail; and exc_info is a "
-"tuple returned by sys.exc_info().  If ``ignore_errors`` is False and "
-"onerror is None, an exception is raised."
-msgstr "如果 ``ignore_errors`` 的值为 ``True`` ，异常将会被忽略；否者，如果"
-        " ``onerror`` 的值不为 ``None`` ，那么 ``onerror`` 函数将会处理这些异常。"
-        " ``onerror`` 的参数包括 ``func`` ， ``path`` 和 ``exc_info`` 。``path`` 表示"
-        " ``func`` 函数处理该路径时抛出的异常； ``exc_info`` 是由 ``sys.exc_info`` "
-        "返回的元组。如果 ``ignore_errors`` 为 ``False`` ，并且 ``onerror`` "
-        "的值为 ``False`` ,那么只会抛出异常。"
+"If ``ignore_errors`` is set, errors are ignored; otherwise, if `onerror` "
+"is set, it is called to handle the error with arguments (`func` , `path` "
+", `exc_info` ) where func is platform and implementation dependent; "
+"`path` is the argument to that function that caused it to fail; and "
+"`exc_info` is a tuple returned by `sys.exc_info()`.  If `ignore_errors` "
+"is `False` and `onerror` is None, an exception is raised."
+msgstr "如果 ``ignore_errors`` 的值为 ``True`` ，异常将会被忽略；否者，如果 ``onerror`` 的值不为 "
+       "``None`` ，那么 ``onerror`` 函数将会处理这些异常。 ``onerror`` 的参数包括 ``func`` ， "
+       "``path`` 和 ``exc_info`` 。``path`` 表示 ``func`` 函数处理该路径时抛出的异常； ``exc_info``"
+       " 是由 ``sys.exc_info`` 返回的元组。如果 ``ignore_errors`` 为 ``False`` ，并且 "
+       "``onerror`` 的值为 ``False`` ,那么只会抛出异常。"
 
-#: ../../file.rst:44
+#: ../../file.rst:43
 msgid "Remove a list of file and/or directory.Other parameters same as `remove`."
 msgstr "删除多个文件或者（和）文件夹，其他的参数见 ``remove``。"
 
-#: ../../file.rst:56
+#: ../../file.rst:55
 msgid ""
 "Open a file, defualt mode ``wb+``. If path not exists, it will be created"
 " automatically. If ``ignore_errors`` is set, errors are ignored."
-msgstr "默认以 ``wb+`` 的方式打开文件，如果需要被创建的文件的上级目录不存在，该目录将会被创建。"
-        "如果 ``ignore_errors`` 为 ``True`` ，异常将会被忽略。"
+msgstr "默认以 ``wb+`` 的方式打开文件，如果需要被创建的文件的上级目录不存在，该目录将会被创建。如果 ``ignore_errors`` 为 "
+        "``True`` ，异常将会被忽略。"
 
-#: ../../file.rst:69
+#: ../../file.rst:68
 msgid ""
 "Copy data and mode bits (`cp src dst`).Both the source and destination "
 "may be a directory.When `copy` a directory,which contains a symlink,if "
@@ -73,38 +71,33 @@ msgid ""
 " file,if follow_symlinks is false and src is a symbolic link, a new "
 "symlink will be created instead of copying the file it points to,else the"
 " contents of the file pointed to by symbolic links is copied."
-msgstr "复制源文件（文件夹）到目标文件（文件夹）。当复制的文件夹包含软连接时，"
-       "如果 ``symlink`` 的值为 ``True`` ，那么在目标文件夹中会创建相应的软连接；"
-       "否者将会复制软连接所指向的文件。当复制的文件为软连接的时候，如果 ``symlink`` "
-       "的值为 ``False`` ，那么将会创建与软连接指向相同的软连接；否者，将会复制软"
-       "连接所指向的文件。"
+msgstr "复制源文件（文件夹）到目标文件（文件夹）。当复制的文件夹包含软连接时，如果 ``symlink`` 的值为 ``True`` "
+       "，那么在目标文件夹中会创建相应的软连接；否者将会复制软连接所指向的文件。当复制的文件为软连接的时候，如果 ``symlink`` 的值为 "
+       "``False`` ，那么将会创建与软连接指向相同的软连接；否者，将会复制软连接所指向的文件。"
 
-#: ../../file.rst:78
-msgid ""
-"example:copy a symlink >>> from pydu.file import copy,symlink >>> from "
-"pydu.file import makedirs,open_fle >>> open_fle('test/test.txt') >>> "
-"symlink('test/test.txt','test/test.link') >>> "
-"copy('test/test.link','test/test_copy1.link') >>> "
-"copy('test/test.link','test/test_copy2.link',follow_symlink=False)"
-msgstr ""
-
-#: ../../file.rst:88
-msgid "open a file as write,and then close it."
+#: ../../file.rst:86
+#, fuzzy
+msgid "Open a file as write,and then close it."
 msgstr "生成一个新的文件"
 
-#: ../../file.rst:95
+#: ../../file.rst:93
 msgid ""
 "``symlink`` only work on `Unix-like` system, it create a symbolic link "
 "pointing to source named link_name.If dist is exist and overwrite is "
 "true,a new symlink will be created."
-msgstr "``symlink`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的软连接。"
-        "如果 ``overwrite`` 的值为 ``True`` ，那么已存在的软连接将会被覆盖。"
+msgstr ""
+"``symlink`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的软连接。如果 ``overwrite`` 的值为 "
+"``True`` ，那么已存在的软连接将会被覆盖。"
 
 #: ../../file.rst:104
+#, fuzzy
 msgid ""
 "``link`` only work on `Unix-like` system, it create a hard link pointing "
 "to source named link_name.If dist is exist and overwrite is true,a new "
-"symlink will be created."
-msgstr ""``link`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的硬连接。"
-        "如果 ``overwrite`` 的值为 ``True`` ，那么已存在的硬连接将会被覆盖。"
+"link will be created."
+msgstr ""
+"\"``link`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的硬连接。如果 ``overwrite`` 的值为 "
+"``True`` ，那么已存在的硬连接将会被覆盖。"
+
+
 

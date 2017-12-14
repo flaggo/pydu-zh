@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-09 22:17+0800\n"
+"POT-Creation-Date: 2017-12-14 23:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,11 @@ msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 msgid "Judge whether the given ``ip`` is IPV6 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
-#: ../../network.rst:40
+#: ../../network.rst:37
+msgid "``is_ipv6`` can only be used on ``unix-like`` system."
+msgstr "``is_ipv6`` 只支持 ``unix-like`` 系统"
+
+#: ../../network.rst:42
 msgid "Get free port which could be bound."
-msgstr ""
+msgstr "获取可以绑定的空闲端口"
 
