@@ -8,7 +8,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-09 22:17+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,12 +25,10 @@ msgid "Specify current Python interpreter is Python 2 or 3."
 msgstr "判断当前Python解释器是Python 2还是3。"
 
 #: ../../compat.rst:11
-#, fuzzy
 msgid "Same to ``urllib`` on PY2 or ``urllib.request`` on PY3."
 msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
 
 #: ../../compat.rst:16
-#, fuzzy
 msgid "Same to ``urlparse`` on PY2 or ``urllib.parse`` on PY3."
 msgstr "在PY2中是 ``urlparse.urljoin``，在PY3中是 ``urllib.parse.urljoin``。"
 
