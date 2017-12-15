@@ -53,4 +53,4 @@ msgstr "将URL下载到当前目录的临时文件中，然后重命名为从URL
 msgid ""
 "Check whether given ``ip`` and ``port`` could connect or not. It will "
 "``retry`` and ``timeout`` on given."
-
+msgstr "在给定的 ``timeout`` 时间内尝试连接给定的 ``ip`` 和 ``port`` 。"

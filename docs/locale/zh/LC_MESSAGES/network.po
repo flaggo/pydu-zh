@@ -28,12 +28,10 @@ msgid ""
 msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 ``int`` 或者 ``str``。"
 
 #: ../../network.rst:18
-#, fuzzy
 msgid "Judge whether the given ``ip`` is IPV4 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
 #: ../../network.rst:29
-#, fuzzy
 msgid "Judge whether the given ``ip`` is IPV6 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 

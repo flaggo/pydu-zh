@@ -37,7 +37,6 @@ msgid "Remove a file or directory."
 msgstr "删除文件或者文件夹。"
 
 #: ../../file.rst:22
-#, fuzzy
 msgid ""
 "If ``ignore_errors`` is set, errors are ignored; otherwise, if `onerror` "
 "is set, it is called to handle the error with arguments (`func` , `path` "
@@ -45,12 +44,11 @@ msgid ""
 "`path` is the argument to that function that caused it to fail; and "
 "`exc_info` is a tuple returned by `sys.exc_info()`.  If `ignore_errors` "
 "is `False` and `onerror` is None, an exception is raised."
-msgstr ""
-"如果 ``ignore_errors`` 的值为 ``True`` ，异常将会被忽略；否者，如果 ``onerror`` 的值不为 "
-"``None`` ，那么 ``onerror`` 函数将会处理这些异常。 ``onerror`` 的参数包括 ``func`` ， "
-"``path`` 和 ``exc_info`` 。``path`` 表示 ``func`` 函数处理该路径时抛出的异常； ``exc_info``"
-" 是由 ``sys.exc_info`` 返回的元组。如果 ``ignore_errors`` 为 ``False`` ，并且 "
-"``onerror`` 的值为 ``False`` ,那么只会抛出异常。"
+msgstr "如果 ``ignore_errors`` 的值为 ``True`` ，异常将会被忽略；否者，如果 ``onerror`` 的值不为 "
+        "``None`` ，那么 ``onerror`` 函数将会处理这些异常。 ``onerror`` 的参数包括 ``func`` ， "
+        "``path`` 和 ``exc_info`` 。``path`` 表示 ``func`` 函数处理该路径时抛出的异常； ``exc_info``"
+        " 是由 ``sys.exc_info`` 返回的元组。如果 ``ignore_errors`` 为 ``False`` ，并且 "
+        "``onerror`` 的值为 ``False`` ,那么只会抛出异常。"
 
 #: ../../file.rst:43
 msgid "Remove a list of file and/or directory.Other parameters same as `remove`."
@@ -94,7 +92,7 @@ msgstr ""
 
 #: ../../file.rst:100
 msgid "``symlink`` can only be used on ``unix-like`` system."
-msgstr ""
+msgstr "``symlink`` 只支持 ``Unix-link`` 系统。"
 
 #: ../../file.rst:104
 msgid ""
@@ -107,30 +105,6 @@ msgstr ""
 
 #: ../../file.rst:111
 msgid "``link`` can only be used on ``unix-like`` system."
-msgstr ""
+msgstr "``link`` 只支持 ``Unix-link`` 系统。"
 
-#~ msgid ""
-#~ "If ``ignore_errors`` is set, errors are"
-#~ " ignored; otherwise, if onerror is "
-#~ "set, it is called to handle the"
-#~ " error with arguments (func, path, "
-#~ "exc_info) where func is platform and "
-#~ "implementation dependent; path is the "
-#~ "argument to that function that caused"
-#~ " it to fail; and exc_info is a"
-#~ " tuple returned by sys.exc_info().  If "
-#~ "``ignore_errors`` is False and onerror "
-#~ "is None, an exception is raised."
-#~ msgstr ""
-#~ "如果 ``ignore_errors`` 的值为 ``True`` "
-#~ "，异常将会被忽略；否者，如果 ``onerror`` 的值不为 ``None`` ，那么"
-#~ " ``onerror`` 函数将会处理这些异常。 ``onerror`` 的参数包括 "
-#~ "``func`` ， ``path`` 和 ``exc_info`` "
-#~ "。``path`` 表示 ``func`` 函数处理该路径时抛出的异常； "
-#~ "``exc_info`` 是由 ``sys.exc_info`` 返回的元组。如果 "
-#~ "``ignore_errors`` 为 ``False`` ，并且 ``onerror``"
-#~ " 的值为 ``False`` ,那么只会抛出异常。"
-
-#~ msgid "Example: Copy a symlink"
-#~ msgstr "示例：拷贝软件软链接"
 
