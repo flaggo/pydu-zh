@@ -74,8 +74,6 @@ File
     symlink will be created instead of copying the file it points to,else
     the contents of the file pointed to by symbolic links is copied.
 
-    Example: Copy a symlink
-
     >>> from pydu.file import copy,symlink
     >>> from pydu.file import makedirs,open_fle
     >>> open_fle('test/test.txt')
@@ -92,9 +90,9 @@ File
 
 .. py:function:: pydu.file.symlink(src, dst, overwrite=False, ignore_errors=False)
 
-   ``symlink`` only work on `Unix-like` system, it create a symbolic link pointing
-   to source named link_name.If dist is exist and overwrite is true,a new
-   symlink will be created.
+    ``symlink`` only work on `Unix-like` system, it create a symbolic link pointing
+    to source named link_name.If dist is exist and overwrite is true,a new
+    symlink will be created.
 
     >>> from pydu.file import symlink
     >>> symlink('test.txt','test.link')
@@ -104,8 +102,8 @@ File
 .. py:function:: pydu.file.link(src, dst, overwrite=False, ignore_errors=False):
 
     ``link`` only work on `Unix-like` system, it create a hard link pointing to
-    source named link_name.If dist is exist and overwrite is true,a new link
-    will be created.
+    source named link_name.If dist is exist and overwrite is true,a
+    new link will be created.
 
     >>> from pydu.file import link
     >>> link('test.txt','test.link')

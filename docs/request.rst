@@ -19,7 +19,6 @@ Request
         Detect filename from dst or headers or url.
 
 
-
 .. py:function:: pydu.request.download(url, dst=None)
 
     High level function, which downloads URL into tmp file in current
