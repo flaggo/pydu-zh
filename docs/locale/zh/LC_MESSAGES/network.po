@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-10 22:41+0800\n"
+"POT-Creation-Date: 2017-12-14 23:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,16 +28,18 @@ msgid ""
 msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 ``int`` 或者 ``str``。"
 
 #: ../../network.rst:18
-#, fuzzy
 msgid "Judge whether the given ``ip`` is IPV4 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
 #: ../../network.rst:29
-#, fuzzy
 msgid "Judge whether the given ``ip`` is IPV6 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
-#: ../../network.rst:40
+#: ../../network.rst:37
+msgid "``is_ipv6`` can only be used on ``unix-like`` system."
+msgstr "``is_ipv6`` 只支持 ``unix-like`` 系统"
+
+#: ../../network.rst:42
 msgid "Get free port which could be bound."
-msgstr ""
+msgstr "获取可以绑定的空闲端口"
 

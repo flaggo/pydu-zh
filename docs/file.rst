@@ -15,17 +15,16 @@ File
     Traceback (most recent call last):
      ...    OSError: Create dir: test1 error.
 
-
 ..  py:function:: pydu.file.remove(path, mode=0o755, ignore_errors=False, onerror)
 
     Remove a file or directory.
 
-    If ``ignore_errors`` is set, errors are ignored; otherwise, if onerror
-    is set, it is called to handle the error with arguments (func,
-    path, exc_info) where func is platform and implementation dependent;
-    path is the argument to that function that caused it to fail; and
-    exc_info is a tuple returned by sys.exc_info().  If ``ignore_errors``
-    is False and onerror is None, an exception is raised.
+    If ``ignore_errors`` is set, errors are ignored; otherwise, if `onerror`
+    is set, it is called to handle the error with arguments (`func` ,
+    `path` , `exc_info` ) where func is platform and implementation dependent;
+    `path` is the argument to that function that caused it to fail; and
+    `exc_info` is a tuple returned by `sys.exc_info()`.  If `ignore_errors`
+    is `False` and `onerror` is None, an exception is raised.
 
     >>> from pydu.file import makedirs
     >>> from pydu.file import remove
@@ -100,11 +99,15 @@ File
     >>> from pydu.file import symlink
     >>> symlink('test.txt','test.link')
 
+    .. note:: ``symlink`` can only be used on ``unix-like`` system.
+
 .. py:function:: pydu.file.link(src, dst, overwrite=False, ignore_errors=False):
 
     ``link`` only work on `Unix-like` system, it create a hard link pointing to
-    source named link_name.If dist is exist and overwrite is true,a
-    new symlink will be created.
+    source named link_name.If dist is exist and overwrite is true,a new link
+    will be created.
 
     >>> from pydu.file import link
     >>> link('test.txt','test.link')
+
+    .. note:: ``link`` can only be used on ``unix-like`` system.
