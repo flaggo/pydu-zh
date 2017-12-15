@@ -11,6 +11,12 @@ pydu
 
 它支持的Python版本从 **2.7 到 3.6**。
 
+安装
+-------
+  pip install pydu
+
+文档
+--------
 要了解更多信息，请阅读： `English <http://pydu.readthedocs.io/>`_ | `中文版 <http://pydu.readthedocs.io/zh/latest>`_。
 
 
