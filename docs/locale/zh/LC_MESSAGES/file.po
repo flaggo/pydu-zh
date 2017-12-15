@@ -77,6 +77,7 @@ msgstr ""
 "，那么在目标文件夹中会创建相应的软连接；否者将会复制软连接所指向的文件。当复制的文件为软连接的时候，如果 ``symlink`` 的值为 "
 "``False`` ，那么将会创建与软连接指向相同的软连接；否者，将会复制软连接所指向的文件。"
 
+
 #: ../../file.rst:86
 msgid "Open a file as write,and then close it."
 msgstr "生成一个新的文件"
