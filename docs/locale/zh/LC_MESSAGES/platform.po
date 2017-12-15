@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../platform.rst:2
 msgid "Platform"
-msgstr "Platform 操作系统"
+msgstr "Platform 平台"
 
 #: ../../platform.rst:6
 msgid "Judge whether current platform is WINDOWS or not."
