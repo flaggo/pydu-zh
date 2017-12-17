@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-17 18:34+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../exception.rst:2
+msgid "Exception"
+msgstr "Exception 异常"
+
+#: ../../exception.rst:6
+msgid "A context manager which can ignore given exceptions."
+msgstr "忽略给定异常的上下文管理器"
+
