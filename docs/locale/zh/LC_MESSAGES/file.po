@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-15 21:45+0800\n"
+"POT-Creation-Date: 2017-12-21 12:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,3 +107,25 @@ msgstr ""
 #: ../../file.rst:111
 msgid "``link`` can only be used on ``unix-like`` system."
 msgstr "``link`` 只支持 ``Unix-link`` 系统。"
+
+#: ../../file.rst:116
+msgid ""
+"Given a command, mode, and a PATH string, return the path which conforms "
+"to the given mode on the PATH, or None if there is no such file."
+msgstr ""
+"给定命令名称、模式、和环境变量PATH，返回在PATH下符合给定模式的命令的路径，"
+"如果找不到就返回None。"
+
+#: ../../file.rst:120
+msgid ""
+"``mode`` defaults to os.F_OK | os.X_OK. ``path`` defaults to the result "
+"of os.environ.get(\"PATH\"), or can be overridden with a custom search "
+"path."
+msgstr ""
+"``mode`` 默认是 os.F_OK | os.X_OK。 ``path`` 默认是 os.environ.get(\"PATH\")"
+"的结果，也可被被自定义的搜索路径重载。"
+
+#: ../../file.rst:124
+msgid "`which` is `shutil.which` in Python 3."
+msgstr "在Python 3中，`which` 就是 `shutil.which`。"
+
