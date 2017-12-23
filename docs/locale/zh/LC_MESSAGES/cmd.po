@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-14 23:28+0800\n"
+"POT-Creation-Date: 2017-12-23 14:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,31 +22,55 @@ msgid "Cmd"
 msgstr "Cmd 命令"
 
 #: ../../cmd.rst:6
-msgid ""
-"Run cmd based on ``subprocess.Popen``. If ``wait`` is True, ``run`` will "
-"return the tuple of ``(returncode, stdout)``. Note, ``stderr`` is "
-"redirected to ``stdout``. If ``wait`` is False, ``run`` will return "
-"object of ``Popen``. ``shell`` is same to parameter of ``Popen``."
-msgstr "基于 ``subprocess.Popen`` 执行命令。如果 ``wait`` 是 "
-       "True，``execute`` 将会返回 ``(returncode, stdout)`` "
-        "元组。注意， ``stderr`` 被重定向到了 ``stdout``。如果 "
-        "``wait`` 是 False， ``execute`` 将会返回 "
-        "``Popen`` 对象。``shell`` 同 ``Popen`` 中的参数一样。""
+msgid "Run cmd based on ``subprocess.Popen``."
+msgstr "基于 ``subprocess.Popen`` 运行命令。"
 
-#: ../../cmd.rst:21
+#: ../../cmd.rst:8
+msgid ""
+"If ``wait`` is True, ``run`` will return the tuple of ``(returncode, "
+"stdout)``. Note, ``stderr`` is redirected to ``stdout``. If ``wait`` is "
+"False, ``run`` will return object of ``Popen``."
+msgstr ""
+"如果 ``wait`` 是 True，``run`` 将会返回 ``(returncode, stdout)`` 元组。"
+"注意， ``stderr`` 被重定向到了 ``stdout``。如果 ``wait`` 是 False， "
+"``run`` 将会返回 ``Popen`` 对象。"
+
+#: ../../cmd.rst:12
+msgid "``shell`` is same to parameter of ``Popen``."
+msgstr "``shell`` 同 ``Popen`` 中的参数一样。"
+
+#: ../../cmd.rst:14
+msgid ""
+"If the process does not terminate after ``timeout`` seconds, a "
+"``TimeoutExpired`` exception will be raised. ``timeinterval`` is workable"
+" when timeout is given on Python 2. It means process status checking "
+"interval."
+msgstr ""
+"如果在 ``timeout`` 秒后进程没有退出，将会抛出 ``TimeoutExpired`` 异常。"
+"``timeinterval`` 在Python 2中给定 timeout时生效。它表示进程状态检查时间间隔。"
+
+#: ../../cmd.rst:17
+msgid ""
+"The child process is not killed if the timeout expires, so in order to "
+"cleanup properly a well-behaved application should kill the child process"
+" and finish communication."
+msgstr ""
+"如果超时了，子进程不会被杀掉。为了合理清除表现良好的应用，应该要杀掉子进程，并且结束通信。"
+
+#: ../../cmd.rst:28
+#, fuzzy
 msgid ""
 "Get command line argv of self python process. On Windows when using "
 "Python 2, ``cmdline_argv`` is implemented by using "
 "``shell32.GetCommandLineArgvW`` to get sys.argv as a list of Unicode "
-"strings. On other system or using Python 3, ``cmdline_argv`` is same to "
-"``sys.argv``."
+"strings."
 msgstr ""
 "获取当前Python进程的命令行参数。在Windows上使用Python 2时， ``cmdline_argv`` 的实现是基于 "
-"``shell32.GetCommandLineArgvW`` "
-"获取列表元素为Unicode字符串形式的sys.argv。而在其他平台或者是使用Python 3时， ``cmdline_argv`` 和 "
-"``sys.argv`` 相同。"
+"``shell32.GetCommandLineArgvW`` 获取列表元素为Unicode字符串形式的sys.argv。"
 
-#: ../../cmd.rst:26
-msgid "There is an example on PyCharm Python Console:"
-msgstr "以下是在PyCharm的Python控制台中的例子："
-
+#: ../../cmd.rst:32
+msgid ""
+"On other system or using Python 3, ``cmdline_argv`` is same to "
+"``sys.argv``."
+msgstr ""
+"而在其他平台或者是使用Python 3时， ``cmdline_argv`` 和 ``sys.argv`` 相同。"
