@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-23 14:25+0800\n"
+"POT-Creation-Date: 2017-12-26 12:18+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,9 +112,7 @@ msgstr "`link`` 只支持 ``类Unix`` 系统。"
 msgid ""
 "Given a command, mode, and a PATH string, return the path which conforms "
 "to the given mode on the PATH, or None if there is no such file."
-msgstr ""
-"给定命令名称、模式、和环境变量PATH，返回在PATH下符合给定模式的命令的路径，"
-"如果找不到就返回None。"
+msgstr "给定命令名称、模式、和环境变量PATH，返回在PATH下符合给定模式的命令的路径，如果找不到就返回None。"
 
 #: ../../system.rst:120
 msgid ""
@@ -122,20 +120,34 @@ msgid ""
 "of os.environ.get(\"PATH\"), or can be overridden with a custom search "
 "path."
 msgstr ""
-"``mode`` 默认是 os.F_OK | os.X_OK。 ``path`` 默认是 os.environ.get(\"PATH\")"
-"的结果，也可被被自定义的搜索路径重载。"
+"``mode`` 默认是 os.F_OK | os.X_OK。 ``path`` 默认是 "
+"os.environ.get(\"PATH\")的结果，也可被被自定义的搜索路径重载。"
 
 #: ../../system.rst:124
 msgid "`which` is `shutil.which` in Python 3."
 msgstr "在Python 3中，`which` 就是 `shutil.which`。"
 
-#: ../../system.rst:132
+#: ../../system.rst:133
+msgid ""
+"Change permissions to the given mode. If ``recursive`` is True perform "
+"recursively."
+msgstr "将权限改成给定模式。如果 ``recursive`` 是True，将会递归。"
+
+#: ../../system.rst:141
+msgid ""
+"Although Windows supports ``chmod``, you can only set the file’s read-"
+"only flag with it (via the stat.S_IWRITE and stat.S_IREAD constants or a "
+"corresponding integer value). All other bits are ignored."
+msgstr ""
+"尽管Windows支持 ``chmod``，但你只能使用它设置文件的只读标志"
+"（通过 tat.S_IWRITE 和 stat.S_IREAD）常量 或者相关整数值。其他所有位会被忽略。"
+
+#: ../../system.rst:148
 msgid ""
 "Context manager which sets the active code page number. It could also be "
 "used as function."
-msgstr ""
-"设置活动代码页号的上下文管理器。它也能够被当做函数使用。"
+msgstr "设置活动代码页号的上下文管理器。它也能够被当做函数使用。"
 
-#: ../../system.rst:142
+#: ../../system.rst:158
 msgid "``chcp`` can only be used on ``Windows`` system."
 msgstr "``chcp`` 只能用于 ``Windows`` 系统。"
