@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../system.rst:111
 msgid "``link`` can only be used on ``unix-like`` system."
-msgstr "`link`` 只支持 ``类Unix`` 系统。"
+msgstr "``link`` 只支持 ``类Unix`` 系统。"
 
 #: ../../system.rst:116
 msgid ""
