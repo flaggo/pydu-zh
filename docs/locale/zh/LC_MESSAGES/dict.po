@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-31 11:38+0800\n"
+"POT-Creation-Date: 2018-01-03 20:24+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,10 +45,31 @@ msgstr ""
 msgid "Dictionary lookup object."
 msgstr "字典查找对象"
 
-#: ../../dict.rst:58
+#: ../../dict.rst:57
+msgid ""
+"Dictionary that remembers insertion order and has default value with "
+"default factory."
+msgstr ""
+"记住插入顺序且能根据默认工厂提供默认值的字典。"
+
+#: ../../dict.rst:60
+msgid ""
+"The default factory is called without arguments to produce a new value "
+"when a key is not present, in ``__getitem__`` only. An "
+"``OrderedDefaultDict`` compares equal to a ``collections.defaultdict`` "
+"with the same items. All remaining arguments are treated the same as if "
+"they were passed to the ``defaultdict`` constructor, including keyword "
+"arguments."
+msgstr ""
+"当key不存在（仅限通过 ``__getitem__`` 中）时，无参数调用默认工厂来产生新值。"
+"``OrderedDefaultDict`` 和 ``collections.defaultdict`` 在比较时是等同的。"
+"所有剩余参数和传入 ``defaultdict`` 构造器中的相同，包括关键字参数。"
+
+#: ../../dict.rst:79
 msgid ""
 "Attrify obj into ``AttriDict`` or ``list of AttriDict`` if the obj is "
 "list. If obj or the item of obj is not list or dict, will return itself."
 msgstr ""
-"将对象属性化为 ``AttriDict`` 或 包含 ``AttriDict`` 的列表（如果对象为列表）。"
-"如果对象或对象中的元素不是列表或字典，将会返回其本身。"
+"将对象属性化为 ``AttriDict`` 或 包含 ``AttriDict`` "
+"的列表（如果对象为列表）。如果对象或对象中的元素不是列表或字典，将会返回其本身。"
+
