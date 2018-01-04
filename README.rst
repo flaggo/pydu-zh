@@ -10,18 +10,20 @@ pydu
 .. image:: https://img.shields.io/pypi/pyversions/pydu.svg
     :target: https://pypi.python.org/pypi/pydu
 
-.. image:: https://travis-ci.org/Prodesire/pydu.svg?branch=master
-  :target: https://travis-ci.org/Prodesire/pydu
+.. image:: https://travis-ci.org/flaggo/pydu.svg?branch=master
+    :target: https://travis-ci.org/flaggo/pydu
 
-.. image:: https://coveralls.io/repos/github/Prodesire/pydu/badge.svg?branch=master
-  :target: https://coveralls.io/github/Prodesire/pydu?branch=master
+.. image:: https://ci.appveyor.com/api/projects/status/github/flaggo/pydu?branch=master&svg=true
+    :target: https://ci.appveyor.com/project/flaggo/pydu
 
-.. image:: https://img.shields.io/github/contributors/prodesire/pydu.svg
-    :target: https://github.com/prodesire/pydu/graphs/contributors
+.. image:: https://codecov.io/github/flaggo/pydu/coverage.svg?branch=master
+    :target: https://codecov.io/github/flaggo/pydu
+    :alt: codecov.io
+
+.. image:: https://img.shields.io/github/contributors/flaggo/pydu.svg
+    :target: https://github.com/flaggo/pydu/graphs/contributors
 
 **pydu** (python datastructures and utils) 是面向Python 2 和 3 的实用数据结构和工具库。它收集自开源项目，也有来自开发者贡献。
-
-它支持的Python版本从 **2.7 到 3.6**。
 
 
 安装
