@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-09 08:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../convert.rst:2
+msgid "Convert"
+msgstr "Convert 转换"
+
+#: ../../convert.rst:7
+msgid "Convert obj to a boolean value."
+msgstr "将对象转换为布尔值。"
+
+#: ../../convert.rst:9
+msgid "If obj is string, obj will converted by case-insensitive way:"
+msgstr "如果对象是字符串，将会以不区分大小写的形式转换："
+
+#: ../../convert.rst:11
+msgid "convert `yes`, `y`, `on`, `true`, `t`, `1` to True"
+msgstr "将 `yes`、 `y`、 `on`、 `true`、 `t`、 `1` 转换为True"
+
+#: ../../convert.rst:12
+msgid "convert `no`, `n`, `off`, `false`, `f`, `0` to False"
+msgstr "将 `no`、 `n`、 `off`、 `false`、 `f`、 `0` 转换为False"
+
+#: ../../convert.rst:13
+msgid "raising TypeError if other values passed"
+msgstr "如果传入其他值，抛出TypeError"
+
+#: ../../convert.rst:15
+msgid "If obj is non-string, obj will converted by ``bool(obj)``."
+msgstr "如果对象不是字符串，将会使用 ``bool(obj)`` 转换。"
+
