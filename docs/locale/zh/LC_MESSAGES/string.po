@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-14 23:28+0800\n"
+"POT-Creation-Date: 2018-01-09 08:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,4 +54,28 @@ msgid ""
 "Sort given string by ascending order. If ``reverse`` is `True`, sorting "
 "given string by descending order."
 msgstr "对给定的字符串进行排序，默认是升序，如果 ``reverse`` 的值为 ``True``，将以降序排序。"
+
+#: ../../string.rst:90
+msgid "Convert obj to a boolean value."
+msgstr "将对象转换为布尔值。"
+
+#: ../../string.rst:92
+msgid "If obj is string, obj will converted by case-insensitive way:"
+msgstr "如果对象是字符串，将会以不区分大小写的形式转换："
+
+#: ../../string.rst:94
+msgid "convert `yes`, `y`, `on`, `true`, `t`, `1` to True"
+msgstr "将 `yes`、 `y`、 `on`、 `true`、 `t`、 `1` 转换为True"
+
+#: ../../string.rst:95
+msgid "convert `no`, `n`, `off`, `false`, `f`, `0` to False"
+msgstr "将 `no`、 `n`、 `off`、 `false`、 `f`、 `0` 转换为False"
+
+#: ../../string.rst:96
+msgid "raising TypeError if other values passed"
+msgstr "如果传入其他值，抛出TypeError"
+
+#: ../../string.rst:98
+msgid "If obj is non-string, obj will converted by ``bool(obj)``."
+msgstr "如果对象不是字符串，将会使用 ``bool(obj)`` 转换。"
 
