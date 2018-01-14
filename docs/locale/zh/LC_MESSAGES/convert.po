@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-09 08:37+0800\n"
+"POT-Creation-Date: 2018-01-14 18:13+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,4 +44,52 @@ msgstr "如果传入其他值，抛出TypeError"
 #: ../../convert.rst:15
 msgid "If obj is non-string, obj will converted by ``bool(obj)``."
 msgstr "如果对象不是字符串，将会使用 ``bool(obj)`` 转换。"
+
+#: ../../convert.rst:26
+msgid "Convert binary string to octal string. For instance: '1001' -> '11'"
+msgstr ""
+
+#: ../../convert.rst:36
+msgid "Convert binary string to decimal number. For instance: '11' -> 3"
+msgstr ""
+
+#: ../../convert.rst:46
+msgid "Convert binary string to hexadecimal string. For instance: '11010' -> '1a'"
+msgstr ""
+
+#: ../../convert.rst:56
+msgid "Convert octal string to binary string. For instance: '11' -> '1001'"
+msgstr ""
+
+#: ../../convert.rst:66
+msgid "Convert octal string to decimal number. For instance: '11' -> 9"
+msgstr ""
+
+#: ../../convert.rst:76
+msgid "Convert octal string to hexadecimal string. For instance: '32' -> '1a'"
+msgstr ""
+
+#: ../../convert.rst:86
+msgid "Convert decimal number to binary string. For instance: 3 -> '11'"
+msgstr ""
+
+#: ../../convert.rst:96
+msgid "Convert decimal number to octal string. For instance: 9 -> '11'"
+msgstr ""
+
+#: ../../convert.rst:106
+msgid "Convert decimal number to hexadecimal string. For instance: 26 -> '1a'"
+msgstr ""
+
+#: ../../convert.rst:116
+msgid "Convert hexadecimal string to binary string. For instance: '1a' -> '11010'"
+msgstr ""
+
+#: ../../convert.rst:126
+msgid "Convert hexadecimal string to octal string. For instance: '1a' -> '32'"
+msgstr ""
+
+#: ../../convert.rst:136
+msgid "Convert hexadecimal string to decimal number. For instance: '1a' -> 26"
+msgstr ""
 
