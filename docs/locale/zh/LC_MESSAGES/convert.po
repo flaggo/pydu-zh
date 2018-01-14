@@ -47,49 +47,49 @@ msgstr "如果对象不是字符串，将会使用 ``bool(obj)`` 转换。"
 
 #: ../../convert.rst:26
 msgid "Convert binary string to octal string. For instance: '1001' -> '11'"
-msgstr ""
+msgstr "把二进制字符串转换为八进制字符串。比如：'1001' -> '11'"
 
 #: ../../convert.rst:36
 msgid "Convert binary string to decimal number. For instance: '11' -> 3"
-msgstr ""
+msgstr "把二进制字符串转换为十进制数字。比如：'11' -> 3"
 
 #: ../../convert.rst:46
 msgid "Convert binary string to hexadecimal string. For instance: '11010' -> '1a'"
-msgstr ""
+msgstr "把二进制字符串转换为十六进制字符串。比如：'11010' -> '1a'"
 
 #: ../../convert.rst:56
 msgid "Convert octal string to binary string. For instance: '11' -> '1001'"
-msgstr ""
+msgstr "把八进制字符串转换为二进制字符串。比如：'11' -> '1001'"
 
 #: ../../convert.rst:66
 msgid "Convert octal string to decimal number. For instance: '11' -> 9"
-msgstr ""
+msgstr "把八进制字符串转换为十进制数字。比如：'11' -> 9"
 
 #: ../../convert.rst:76
 msgid "Convert octal string to hexadecimal string. For instance: '32' -> '1a'"
-msgstr ""
+msgstr "把八进制字符串转换为十六进制字符串。比如：'32' -> '1a'"
 
 #: ../../convert.rst:86
 msgid "Convert decimal number to binary string. For instance: 3 -> '11'"
-msgstr ""
+msgstr "把十进制数字转换为二进制字符串。比如：3 -> '11'"
 
 #: ../../convert.rst:96
 msgid "Convert decimal number to octal string. For instance: 9 -> '11'"
-msgstr ""
+msgstr "把十进制数字转换为八进制字符串。比如：9 -> '11'"
 
 #: ../../convert.rst:106
 msgid "Convert decimal number to hexadecimal string. For instance: 26 -> '1a'"
-msgstr ""
+msgstr "把十进制数字转换为十六进制字符串。比如：26 -> '1a'"
 
 #: ../../convert.rst:116
 msgid "Convert hexadecimal string to binary string. For instance: '1a' -> '11010'"
-msgstr ""
+msgstr "把十六进制字符串转换为二进制字符串。比如：'1a' -> '11010'"
 
 #: ../../convert.rst:126
 msgid "Convert hexadecimal string to octal string. For instance: '1a' -> '32'"
-msgstr ""
+msgstr "把十六进制字符串转换为八进制字符串。比如：'1a' -> '32'"
 
 #: ../../convert.rst:136
 msgid "Convert hexadecimal string to decimal number. For instance: '1a' -> 26"
-msgstr ""
+msgstr "把十六进制字符串转换为十进制数字。比如：'1a' -> 26"
 
