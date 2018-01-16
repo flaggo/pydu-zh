@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-17 00:16+0800\n"
+"POT-Creation-Date: 2018-01-17 00:23+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,6 @@ msgid "Convert given ``obj`` to list."
 msgstr "将给定的 ``obj`` 转换为列表。"
 
 #: ../../list.rst:20
-msgid "If ``obj`` is not a list, return [``obj``], else return ``obj`` itself."
-msgstr "如果 ``obj`` 不是列表，返回 [``obj``]，否则返回 ``obj`` 本身。"
+msgid "If ``obj`` is not a list, return ``[obj]``, else return ``obj`` itself."
+msgstr "如果 ``obj`` 不是列表，返回 ``[obj]``，否则返回 ``obj`` 本身。"
 
