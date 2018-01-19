@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-10 22:41+0800\n"
+"POT-Creation-Date: 2018-01-19 12:48+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,29 +51,36 @@ msgstr "返回字典键值对的iter对象。"
 
 #: ../../compat.rst:41
 msgid "The text type is ``unicode`` on PY2 or ``str`` on PY3."
-msgstr "在PY2中是 ``unicode``，在PY3中是 ``str``。"
+msgstr "text类型在PY2中是 ``unicode``，在PY3中是 ``str``。"
 
 #: ../../compat.rst:46
 msgid "The string types are ``(str, unicode)`` on PY2 or ``(str,)`` on PY3."
-msgstr "在PY2中是 ``(str, unicode)``，在PY3中是 ``(str,)``。"
+msgstr "string类型在PY2中是 ``(str, unicode)``，在PY3中是 ``(str,)``。"
 
-#: ../../compat.rst:51
+#: ../../compat.rst:50
+msgid ""
+"The strbytes(string bytes) types are ``(str, unicode, bytes)`` on PY2 or "
+"``(str, bytes)`` on PY3."
+msgstr "strbytes（string bytes）类型在PY2中是 ``(str, unicode, bytes)``，"
+"在PY3中是 ``(str, bytes)``。"
+
+#: ../../compat.rst:55
 msgid "The numeric types are ``(int, long)`` on PY2 or ``(int,)`` on PY3."
 msgstr "在PY2中是 ``(int, long)``，在PY3中是 ``(int,)``。"
 
-#: ../../compat.rst:56
+#: ../../compat.rst:60
 msgid "Same to ``itertools.imap`` on PY2 or ``map`` on PY3."
 msgstr "在PY2中是 ``itertools.imap``，在PY3中是 ``map``。"
 
-#: ../../compat.rst:61
+#: ../../compat.rst:65
 msgid "Same to ``cmp`` on PY2, but implement on PY3."
 msgstr ""
 
-#: ../../compat.rst:66
+#: ../../compat.rst:70
 msgid "An implementation independent way of checking for next attribute."
 msgstr "检查是否是可迭代的。"
 
-#: ../../compat.rst:71
+#: ../../compat.rst:75
 msgid "An implementation independent way of checking for iterables."
 msgstr "检查是否是可迭代的。"
 
