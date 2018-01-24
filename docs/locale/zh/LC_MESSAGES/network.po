@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-29 18:44+0800\n"
+"POT-Creation-Date: 2018-01-24 08:33+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,3 +38,18 @@ msgstr "判断给定的 ``ip`` 是否为 IPV6。"
 #: ../../network.rst:40
 msgid "Get free port which could be bound."
 msgstr "获取可以绑定的空闲端口"
+
+#: ../../network.rst:49
+msgid ""
+"Convert ip to integer. Support IPV4 and IPV6. Raise ``ValueError`` if "
+"convert failed."
+msgstr ""
+"将IP转换为整数。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
+
+#: ../../network.rst:59
+msgid ""
+"Convert integer to ip. Support IPV4 and IPV6. Raise ``ValueError`` if "
+"convert failed."
+msgstr ""
+"将整数转换为IP。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
+
