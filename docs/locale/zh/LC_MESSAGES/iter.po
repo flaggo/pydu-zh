@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017, Prodesire
+# This file is distributed under the same license as the pydu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pydu \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 21:26+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: ../../iter.rst:2
+msgid "Iter"
+msgstr "Iter 迭代"
+
+#: ../../iter.rst:6
+msgid "Get the first item in the iterable."
+msgstr "获取可迭代对象的第一个项。"
+
+#: ../../iter.rst:15
+msgid ""
+"Get the last item in the iterable. Warning, this can be slow due to iter "
+"step by step to last one."
+msgstr "获取可迭代对象的最后一个项。注意，由于逐步迭代到最后一项，这可能会较慢。"
+
+#: ../../iter.rst:25
+msgid ""
+"Returns True if all elements in the given iterable are True for the given"
+" predicate function."
+msgstr "如果给定可迭代对象的所有元素套用判定函数都是True，则返回True。"
+
+#: ../../iter.rst:35
+msgid ""
+"Returns True if any element in the given iterable is True for the given "
+"predicate function."
+msgstr "如果给定可迭代对象的任一元素套用判定函数是True，则返回True。"
+
+#: ../../iter.rst:45
+msgid "Join each item of iterable to string."
+msgstr "将可迭代对象中的每一项连接为字符串。"
+
