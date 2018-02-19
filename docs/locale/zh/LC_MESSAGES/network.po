@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-24 08:33+0800\n"
+"POT-Creation-Date: 2018-02-19 12:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,28 +28,33 @@ msgid ""
 msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 ``int`` 或者 ``str``。"
 
 #: ../../network.rst:18
+msgid ""
+"A list of private ipv4 addresses. Each item is a tuple of (ipv4 address, "
+"mask)."
+msgstr ""
+"ipv4地址列表。每个项是（ipv4地址，掩码）这样的元组。"
+
+#: ../../network.rst:23
 msgid "Judge whether the given ``ip`` is IPV4 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
-#: ../../network.rst:29
+#: ../../network.rst:34
 msgid "Judge whether the given ``ip`` is IPV6 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV6。"
 
-#: ../../network.rst:40
+#: ../../network.rst:45
 msgid "Get free port which could be bound."
 msgstr "获取可以绑定的空闲端口"
 
-#: ../../network.rst:49
+#: ../../network.rst:54
 msgid ""
 "Convert ip to integer. Support IPV4 and IPV6. Raise ``ValueError`` if "
 "convert failed."
-msgstr ""
-"将IP转换为整数。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
+msgstr "将IP转换为整数。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
 
-#: ../../network.rst:59
+#: ../../network.rst:64
 msgid ""
 "Convert integer to ip. Support IPV4 and IPV6. Raise ``ValueError`` if "
 "convert failed."
-msgstr ""
-"将整数转换为IP。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
+msgstr "将整数转换为IP。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
 

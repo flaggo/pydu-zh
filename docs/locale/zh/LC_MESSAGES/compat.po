@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-19 12:48+0800\n"
+"POT-Creation-Date: 2018-02-19 12:20+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -73,14 +73,18 @@ msgid "Same to ``itertools.imap`` on PY2 or ``map`` on PY3."
 msgstr "在PY2中是 ``itertools.imap``，在PY3中是 ``map``。"
 
 #: ../../compat.rst:65
+msgid "Same to built-in ``reduce`` on PY2 or ``functools.reduce`` on PY3."
+msgstr "在PY2中是内建 ``reduce``，在PY3中是 ``functools.reduce``。"
+
+#: ../../compat.rst:70
 msgid "Same to ``cmp`` on PY2, but implement on PY3."
 msgstr ""
 
-#: ../../compat.rst:70
+#: ../../compat.rst:75
 msgid "An implementation independent way of checking for next attribute."
 msgstr "检查是否是可迭代的。"
 
-#: ../../compat.rst:75
+#: ../../compat.rst:80
 msgid "An implementation independent way of checking for iterables."
 msgstr "检查是否是可迭代的。"
 
