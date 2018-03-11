@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 13:34+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,18 @@ msgstr ""
 msgid "Functional"
 msgstr "Functional 函数式"
 
-#: ../../functional.rst:6
+#: ../../functional.rst:4
+msgid "Utils for functional programming."
+msgstr "提供函数式编程的工具。"
+
+#: ../../functional.rst:8
 msgid ""
 "Compose all functions. The previous function must accept one argument, "
 "which is the output of the next function. The last function can accept "
 "any args and kwargs."
 msgstr "组成所有函数。前一个函数必须接受一个参数，该参数为后一个函数的输出值。最后一个函数可以接受任意位置参数和关键字参数。"
 
-#: ../../functional.rst:10
+#: ../../functional.rst:12
 msgid "compose(f1, f2, f3)(\\*x) is same to f1(f2(f3(\\*x)))."
 msgstr "compose(f1, f2, f3)(\\*x) 和 f1(f2(f3(\\*x))) 一样。"
 

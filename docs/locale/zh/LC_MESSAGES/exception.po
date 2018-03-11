@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-17 18:34+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,11 @@ msgstr ""
 msgid "Exception"
 msgstr "Exception 异常"
 
-#: ../../exception.rst:6
+#: ../../exception.rst:4
+msgid "Utils for handling exceptions."
+msgstr "提供处理异常的工具。"
+
+#: ../../exception.rst:8
 msgid "A context manager which can ignore given exceptions."
 msgstr "忽略给定异常的上下文管理器"
 

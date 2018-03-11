@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-03 20:24+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,17 @@ msgstr ""
 msgid "Dict"
 msgstr "Dict 字典"
 
-#: ../../dict.rst:6
+#: ../../dict.rst:4
+msgid "Additional powerful dictionaries and relative functions."
+msgstr "额外的强大的字典和相关函数。"
+
+#: ../../dict.rst:8
 msgid ""
 "A AttrDict object is like a dictionary except ``obj.foo`` can be used in "
 "addition to ``obj['foo']``."
 msgstr "AttrDict 对象类似于字典，除了能使用 ``obj['foo']``，还能使用 ``obj.foo``。"
 
-#: ../../dict.rst:26
+#: ../../dict.rst:28
 msgid ""
 "A case-insensitive ``dict``-like object. Implements all methods and "
 "operations of ``collections.MutableMapping`` as well as dict's ``copy``. "
@@ -41,18 +45,17 @@ msgstr ""
 "``lower_items``。所有的键都应是字符串。内部结构会记住最后一次被设置的键的大小写，``iter(instance)``、``keys()``、``items()``、``iterkeys()``"
 " 和 ``iteritems()`` 将会包含大小写敏感的键。"
 
-#: ../../dict.rst:45
+#: ../../dict.rst:47
 msgid "Dictionary lookup object."
 msgstr "字典查找对象"
 
-#: ../../dict.rst:57
+#: ../../dict.rst:59
 msgid ""
 "Dictionary that remembers insertion order and has default value with "
 "default factory."
-msgstr ""
-"记住插入顺序且能根据默认工厂提供默认值的字典。"
+msgstr "记住插入顺序且能根据默认工厂提供默认值的字典。"
 
-#: ../../dict.rst:60
+#: ../../dict.rst:62
 msgid ""
 "The default factory is called without arguments to produce a new value "
 "when a key is not present, in ``__getitem__`` only. An "
@@ -61,11 +64,11 @@ msgid ""
 "they were passed to the ``defaultdict`` constructor, including keyword "
 "arguments."
 msgstr ""
-"当key不存在（仅限通过 ``__getitem__`` 中）时，无参数调用默认工厂来产生新值。"
-"``OrderedDefaultDict`` 和 ``collections.defaultdict`` 在比较时是等同的。"
-"所有剩余参数和传入 ``defaultdict`` 构造器中的相同，包括关键字参数。"
+"当key不存在（仅限通过 ``__getitem__`` 中）时，无参数调用默认工厂来产生新值。``OrderedDefaultDict`` 和 "
+"``collections.defaultdict`` 在比较时是等同的。所有剩余参数和传入 ``defaultdict`` "
+"构造器中的相同，包括关键字参数。"
 
-#: ../../dict.rst:79
+#: ../../dict.rst:81
 msgid ""
 "Attrify obj into ``AttriDict`` or ``list of AttriDict`` if the obj is "
 "list. If obj or the item of obj is not list or dict, will return itself."

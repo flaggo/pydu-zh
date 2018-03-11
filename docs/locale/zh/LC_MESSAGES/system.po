@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-29 20:06+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,29 +21,34 @@ msgstr ""
 msgid "System"
 msgstr "System 系统"
 
-#: ../../system.rst:7
+#: ../../system.rst:4
+msgid ""
+"Utils for handling system, like to track file, make directory, link and "
+"so on."
+msgstr "提供处理系统（如追踪文件、创建目录、链接等）的工具。"
+
+#: ../../system.rst:9
 msgid ""
 "Track current opening files, started with ``FileTracker.track()``. When "
 "opening several files, ``FileTracker`` tracks them and you can locate "
 "them by calling ``FileTraker.get_openfiles()``."
 msgstr ""
-"跟踪当前打开的文件，调用 ``FileTracker.track()`` 开始跟踪。当打开许多文件时，"
-"``FileTracker`` 能够跟踪它们，你可以通过调用 ``FileTracker.get_openfiles()`` "
-"来定位得到这些文件对象。"
+"跟踪当前打开的文件，调用 ``FileTracker.track()`` 开始跟踪。当打开许多文件时，``FileTracker`` "
+"能够跟踪它们，你可以通过调用 ``FileTracker.get_openfiles()`` 来定位得到这些文件对象。"
 
-#: ../../system.rst:13
+#: ../../system.rst:15
 msgid "Start tracking opening files."
 msgstr "开始跟踪打开文件。"
 
-#: ../../system.rst:17
+#: ../../system.rst:19
 msgid "Stop tracking opening files."
 msgstr "停止跟踪打开文件。"
 
-#: ../../system.rst:21
+#: ../../system.rst:23
 msgid "Get current opening files."
 msgstr "获取当前已打开的文件。"
 
-#: ../../system.rst:39
+#: ../../system.rst:41
 msgid ""
 "Based on ``os.makedirs``,create a leaf directory and all intermediate "
 "ones. ``mode`` default is ``0o755``. When make an exists path, if "
@@ -54,11 +59,11 @@ msgstr ""
 "``mode`` 默认值为 ``0o75`` ， 当被创建的文件夹已经存在的时候， 如果 ``eist_ok`` 的值为 ``False`` ，"
 "  ``makedirs`` 将会抛出异常。 如果 ``ignore_errors`` 的值为 ``True`` ， 所有的异常将会被忽略。"
 
-#: ../../system.rst:53
+#: ../../system.rst:55
 msgid "Remove a file or directory."
 msgstr "删除文件或者文件夹。"
 
-#: ../../system.rst:55
+#: ../../system.rst:57
 msgid ""
 "If ``ignore_errors`` is set, errors are ignored; otherwise, if `onerror` "
 "is set, it is called to handle the error with arguments (`func` , `path` "
@@ -73,11 +78,11 @@ msgstr ""
 " 是由 ``sys.exc_info`` 返回的元组。如果 ``ignore_errors`` 为 ``False`` ，并且 "
 "``onerror`` 的值为 ``False`` ,那么只会抛出异常。"
 
-#: ../../system.rst:76
+#: ../../system.rst:78
 msgid "Remove a list of file and/or directory.Other parameters same as `remove`."
 msgstr "删除多个文件或者（和）文件夹，其他的参数见 ``remove``。"
 
-#: ../../system.rst:88
+#: ../../system.rst:90
 msgid ""
 "Open a file, defualt mode ``wb+``. If path not exists, it will be created"
 " automatically. If ``ignore_errors`` is set, errors are ignored."
@@ -85,7 +90,7 @@ msgstr ""
 "默认以 ``wb+`` 的方式打开文件，如果需要被创建的文件的上级目录不存在，该目录将会被创建。如果 ``ignore_errors`` 为 "
 "``True`` ，异常将会被忽略。"
 
-#: ../../system.rst:101
+#: ../../system.rst:103
 msgid ""
 "Copy data and mode bits (`cp src dst`).Both the source and destination "
 "may be a directory.When `copy` a directory,which contains a symlink,if "
@@ -100,11 +105,11 @@ msgstr ""
 "，那么在目标文件夹中会创建相应的软连接；否者将会复制软连接所指向的文件。当复制的文件为软连接的时候，如果 ``symlink`` 的值为 "
 "``False`` ，那么将会创建与软连接指向相同的软连接；否者，将会复制软连接所指向的文件。"
 
-#: ../../system.rst:119
+#: ../../system.rst:121
 msgid "Open a file as write,and then close it."
 msgstr "生成一个新的文件"
 
-#: ../../system.rst:126
+#: ../../system.rst:128
 msgid ""
 "``symlink`` only work on `Unix-like` system, it create a symbolic link "
 "pointing to source named link_name.If dist is exist and overwrite is "
@@ -113,11 +118,11 @@ msgstr ""
 "``symlink`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的软连接。如果 ``overwrite`` 的值为 "
 "``True`` ，那么已存在的软连接将会被覆盖。"
 
-#: ../../system.rst:133
+#: ../../system.rst:135
 msgid "``symlink`` can only be used on ``unix-like`` system."
 msgstr "``symlink`` 只支持 ``类Unix`` 系统。"
 
-#: ../../system.rst:137
+#: ../../system.rst:139
 msgid ""
 "``link`` only work on `Unix-like` system, it create a hard link pointing "
 "to source named link_name.If dist is exist and overwrite is true,a new "
@@ -126,17 +131,17 @@ msgstr ""
 "``link`` 只支持 ``Unix-link`` 系统，它将会创建指向源文件的硬连接。如果 ``overwrite`` 的值为 "
 "``True`` ，那么已存在的硬连接将会被覆盖。"
 
-#: ../../system.rst:144
+#: ../../system.rst:146
 msgid "``link`` can only be used on ``unix-like`` system."
 msgstr "``link`` 只支持 ``类Unix`` 系统。"
 
-#: ../../system.rst:149
+#: ../../system.rst:151
 msgid ""
 "Given a command, mode, and a PATH string, return the path which conforms "
 "to the given mode on the PATH, or None if there is no such file."
 msgstr "给定命令名称、模式、和环境变量PATH，返回在PATH下符合给定模式的命令的路径，如果找不到就返回None。"
 
-#: ../../system.rst:153
+#: ../../system.rst:155
 msgid ""
 "``mode`` defaults to os.F_OK | os.X_OK. ``path`` defaults to the result "
 "of os.environ.get(\"PATH\"), or can be overridden with a custom search "
@@ -145,17 +150,17 @@ msgstr ""
 "``mode`` 默认是 os.F_OK | os.X_OK。 ``path`` 默认是 "
 "os.environ.get(\"PATH\")的结果，也可被被自定义的搜索路径重载。"
 
-#: ../../system.rst:157
+#: ../../system.rst:159
 msgid "`which` is `shutil.which` in Python 3."
 msgstr "在Python 3中，`which` 就是 `shutil.which`。"
 
-#: ../../system.rst:166
+#: ../../system.rst:168
 msgid ""
 "Change permissions to the given mode. If ``recursive`` is True perform "
 "recursively."
 msgstr "将权限改成给定模式。如果 ``recursive`` 是True，将会递归。"
 
-#: ../../system.rst:174
+#: ../../system.rst:176
 msgid ""
 "Although Windows supports ``chmod``, you can only set the file’s read-"
 "only flag with it (via the stat.S_IWRITE and stat.S_IREAD constants or a "
@@ -164,13 +169,13 @@ msgstr ""
 "尽管Windows支持 ``chmod``，但你只能使用它设置文件的只读标志（通过 tat.S_IWRITE 和 stat.S_IREAD）常量 "
 "或者相关整数值。其他所有位会被忽略。"
 
-#: ../../system.rst:181
+#: ../../system.rst:183
 msgid ""
 "Context manager which sets the active code page number. It could also be "
 "used as function."
 msgstr "设置活动代码页号的上下文管理器。它也能够被当做函数使用。"
 
-#: ../../system.rst:191
+#: ../../system.rst:193
 msgid "``chcp`` can only be used on ``Windows`` system."
 msgstr "``chcp`` 只能用于 ``Windows`` 系统。"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-05 21:26+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,29 +21,33 @@ msgstr ""
 msgid "Iter"
 msgstr "Iter 迭代"
 
-#: ../../iter.rst:6
+#: ../../iter.rst:4
+msgid "Utils for handling iterations."
+msgstr "提供处理迭代对象的工具。"
+
+#: ../../iter.rst:8
 msgid "Get the first item in the iterable."
 msgstr "获取可迭代对象的第一个项。"
 
-#: ../../iter.rst:15
+#: ../../iter.rst:17
 msgid ""
 "Get the last item in the iterable. Warning, this can be slow due to iter "
 "step by step to last one."
 msgstr "获取可迭代对象的最后一个项。注意，由于逐步迭代到最后一项，这可能会较慢。"
 
-#: ../../iter.rst:25
+#: ../../iter.rst:27
 msgid ""
 "Returns True if all elements in the given iterable are True for the given"
 " predicate function."
 msgstr "如果给定可迭代对象的所有元素套用判定函数都是True，则返回True。"
 
-#: ../../iter.rst:35
+#: ../../iter.rst:37
 msgid ""
 "Returns True if any element in the given iterable is True for the given "
 "predicate function."
 msgstr "如果给定可迭代对象的任一元素套用判定函数是True，则返回True。"
 
-#: ../../iter.rst:45
+#: ../../iter.rst:47
 msgid "Join each item of iterable to string."
 msgstr "将可迭代对象中的每一项连接为字符串。"
 

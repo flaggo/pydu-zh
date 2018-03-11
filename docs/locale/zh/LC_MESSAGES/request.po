@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-10 22:41+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,36 +21,42 @@ msgstr ""
 msgid "Request"
 msgstr "Request 请求"
 
-#: ../../request.rst:6
+#: ../../request.rst:4
+msgid "Utils for handling request."
+msgstr "提供处理请求的工具。"
+
+#: ../../request.rst:8
 msgid "Supply several methods to get filename."
 msgstr "提供各类获取文件名的方法"
 
-#: ../../request.rst:10
+#: ../../request.rst:12
 msgid "Detected filename as unicode or None."
 msgstr "检测文件名为 unicode 或 None。"
 
-#: ../../request.rst:14
+#: ../../request.rst:16
 msgid ""
 "Detect filename from Content-Disposition headers if present. ``headers`` "
 "could be a dict, list or string."
 msgstr "从响应头的Content-Disposition（如果有）中获取文件名。 ``headers`` 可以使字典、列表或者字符串。"
 
-#: ../../request.rst:19
+#: ../../request.rst:21
 msgid "Detect filename from dst or headers or url."
 msgstr "从目录，响应头部或者路径获取文件名称"
 
-#: ../../request.rst:24
+#: ../../request.rst:26
 msgid ""
 "High level function, which downloads URL into tmp file in current "
 "directory and then renames it to filename autodetected from either URL or"
 " HTTP headers. ``url`` indicates which url to download. ``dst`` is the "
 "filename or directory of destination. ``None`` as default, means download"
 " to current directory."
-msgstr "将URL下载到当前目录的临时文件中，然后重命名为从URL或者HTTP头中自动检测出的文件名。``url`` 是要下载的URL地址。 ``dst``"
-        " 是文件名或目录的目标路径，默认为 ``None``，表示下载到当前目录。"
+msgstr ""
+"将URL下载到当前目录的临时文件中，然后重命名为从URL或者HTTP头中自动检测出的文件名。``url`` 是要下载的URL地址。 ``dst``"
+" 是文件名或目录的目标路径，默认为 ``None``，表示下载到当前目录。"
 
-#: ../../request.rst:34
+#: ../../request.rst:36
 msgid ""
 "Check whether given ``ip`` and ``port`` could connect or not. It will "
 "``retry`` and ``timeout`` on given."
 msgstr "在给定的 ``timeout`` 时间内尝试连接给定的 ``ip`` 和 ``port`` 。"
+

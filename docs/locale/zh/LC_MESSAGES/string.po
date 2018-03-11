@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-09 08:37+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,36 +21,41 @@ msgstr ""
 msgid "String"
 msgstr "String 字符串"
 
-#: ../../string.rst:6
+#: ../../string.rst:4
+msgid "Utils for handling string."
+msgstr "提供处理字符串的工具。"
+
+#: ../../string.rst:8
 msgid "Converts any given object to unicode string."
 msgstr "将任何对象转换为 ``unicode`` 字符串。"
 
-#: ../../string.rst:19
+#: ../../string.rst:21
 msgid "Converts any given object to encoded string (default: utf-8)."
 msgstr "将任何对象转换为编码后字符串（默认为 ``utf-8``）。"
 
-#: ../../string.rst:32
+#: ../../string.rst:34
 msgid "Removes the string ``remove`` from the left of ``text``."
 msgstr "移除字符串 ``text`` 左侧的 ``remove``。"
 
-#: ../../string.rst:45
+#: ../../string.rst:47
 msgid "Removes the string ``remove`` from the right of ``text``."
 msgstr "移除字符串 ``text`` 右侧的 ``remove``。"
 
-#: ../../string.rst:54
+#: ../../string.rst:56
 msgid "Removes the string ``remove`` from the both sides of ``text``."
 msgstr "移除字符串 ``text`` 两边的 ``remove``。"
 
-#: ../../string.rst:62
+#: ../../string.rst:64
 msgid "Return common prefix of the stings"
 msgstr "返回字符串的共有前缀。"
 
-#: ../../string.rst:71
+#: ../../string.rst:73
 msgid "Return common suffix of the stings"
 msgstr "返回字符串的共有后缀"
 
-#: ../../string.rst:80
+#: ../../string.rst:82
 msgid ""
 "Sort given string by ascending order. If ``reverse`` is `True`, sorting "
 "given string by descending order."
 msgstr "对给定的字符串进行排序，默认是升序，如果 ``reverse`` 的值为 ``True``，将以降序排序。"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 12:20+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,38 +21,41 @@ msgstr ""
 msgid "Network"
 msgstr "Network 网络"
 
-#: ../../network.rst:6
+#: ../../network.rst:4
+msgid "Utils for handling network."
+msgstr "提供处理网络的工具。"
+
+#: ../../network.rst:8
 msgid ""
 "Converts mask from /`xx` format to `xxx.xxx.xxx.xxx`. ``mask`` can be "
 "either ``int`` or ``str``."
 msgstr "将mask从 /`xx` 转化为 `xxx.xxx.xxx.xxx` 形式。 ``mask`` 可以是 ``int`` 或者 ``str``。"
 
-#: ../../network.rst:18
+#: ../../network.rst:20
 msgid ""
 "A list of private ipv4 addresses. Each item is a tuple of (ipv4 address, "
 "mask)."
-msgstr ""
-"ipv4地址列表。每个项是（ipv4地址，掩码）这样的元组。"
+msgstr "ipv4地址列表。每个项是（ipv4地址，掩码）这样的元组。"
 
-#: ../../network.rst:23
+#: ../../network.rst:25
 msgid "Judge whether the given ``ip`` is IPV4 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV4。"
 
-#: ../../network.rst:34
+#: ../../network.rst:36
 msgid "Judge whether the given ``ip`` is IPV6 address."
 msgstr "判断给定的 ``ip`` 是否为 IPV6。"
 
-#: ../../network.rst:45
+#: ../../network.rst:47
 msgid "Get free port which could be bound."
 msgstr "获取可以绑定的空闲端口"
 
-#: ../../network.rst:54
+#: ../../network.rst:56
 msgid ""
 "Convert ip to integer. Support IPV4 and IPV6. Raise ``ValueError`` if "
 "convert failed."
 msgstr "将IP转换为整数。支持IPV4和IPV6。如果转换失败，将会抛出 ``ValueError``。"
 
-#: ../../network.rst:64
+#: ../../network.rst:66
 msgid ""
 "Convert integer to ip. Support IPV4 and IPV6. Raise ``ValueError`` if "
 "convert failed."

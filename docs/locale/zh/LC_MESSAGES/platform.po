@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-14 23:28+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,43 +21,47 @@ msgstr ""
 msgid "Platform"
 msgstr "Platform 平台"
 
-#: ../../platform.rst:6
+#: ../../platform.rst:4
+msgid "Constants which indicates specific platform."
+msgstr "表示特定平台的常量。"
+
+#: ../../platform.rst:8
 msgid "Judge whether current platform is WINDOWS or not."
 msgstr "判断当前操作系统是否为 ``WINDOWS`` 。"
 
-#: ../../platform.rst:11
+#: ../../platform.rst:13
 msgid "Judge whether current platform is LINUX or not."
 msgstr "判断当前操作系统是否为 ``LINUX`` 。"
 
-#: ../../platform.rst:16
+#: ../../platform.rst:18
 msgid "Judge whether current platform is POSIX or not."
 msgstr "判断当前操作系统是否为 ``POSIX`` 。"
 
-#: ../../platform.rst:21
+#: ../../platform.rst:23
 msgid "Judge whether current platform is DARWIN or not."
 msgstr "判断当前操作系统是否为 ``DARWIN`` 。"
 
-#: ../../platform.rst:26
+#: ../../platform.rst:28
 msgid "Judge whether current platform is SUNOS or not."
 msgstr "判断当前操作系统是否为 ``SUNOS`` 。"
 
-#: ../../platform.rst:31
+#: ../../platform.rst:33
 msgid "Judge whether current platform is SMARTOS or not."
 msgstr "判断当前操作系统是否为 ``SMARTOS`` 。"
 
-#: ../../platform.rst:36
+#: ../../platform.rst:38
 msgid "Judge whether current platform is FREEBSD or not."
 msgstr "判断当前操作系统是否为 ``FREEBSD`` 。"
 
-#: ../../platform.rst:41
+#: ../../platform.rst:43
 msgid "Judge whether current platform is NETBSD or not."
 msgstr "判断当前操作系统是否为 ``NETBSD`` 。"
 
-#: ../../platform.rst:46
+#: ../../platform.rst:48
 msgid "Judge whether current platform is OPENBSD or not."
 msgstr "判断当前操作系统是否为 ``OPENBSD`` 。"
 
-#: ../../platform.rst:51
+#: ../../platform.rst:53
 msgid "Judge whether current platform is AIX or not."
 msgstr "判断当前操作系统是否为 ``AIX`` 。"
 

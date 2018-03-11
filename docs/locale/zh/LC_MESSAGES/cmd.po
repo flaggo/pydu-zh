@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 12:20+0800\n"
+"POT-Creation-Date: 2018-03-10 13:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,35 +21,37 @@ msgstr ""
 msgid "Cmd"
 msgstr "Cmd 命令"
 
-#: ../../cmd.rst:6
+#: ../../cmd.rst:4
+msgid "Utils for running command and getting command line."
+msgstr "提供运行命令和获取命令行等工具。"
+
+#: ../../cmd.rst:8
 msgid ""
 "This exception is raised when the timeout expires while waiting for a "
 "child process."
 msgstr "该异常在等待子进程超时时抛出。"
 
-#: ../../cmd.rst:9
+#: ../../cmd.rst:11
 msgid "Attributes:"
 msgstr "属性："
 
-#: ../../cmd.rst:10
+#: ../../cmd.rst:12
 msgid "cmd, output, stdout, stderr, timeout"
 msgstr ""
 
-#: ../../cmd.rst:15
+#: ../../cmd.rst:17
 msgid ""
 "Run cmd based on ``subprocess.Popen`` and return the tuple of "
 "``(returncode, stdout)``."
-msgstr ""
-"Run 命令基于 ``subprocess.Popen`` ，并返回 ``(returncode, stdout)`` 的这样元组。"
+msgstr "Run 命令基于 ``subprocess.Popen`` ，并返回 ``(returncode, stdout)`` 的这样元组。"
 
-#: ../../cmd.rst:17
+#: ../../cmd.rst:19
 msgid ""
 "Note, ``stderr`` is redirected to ``stdout``. ``shell`` is same to "
 "parameter of ``Popen``."
-msgstr ""
-"`注意，``stderr`` 被重定向到了 ``stdout``。`shell`` 同 ``Popen`` 中的参数一样。"
+msgstr "`注意，``stderr`` 被重定向到了 ``stdout``。`shell`` 同 ``Popen`` 中的参数一样。"
 
-#: ../../cmd.rst:19
+#: ../../cmd.rst:21
 msgid ""
 "If the process does not terminate after ``timeout`` seconds, a "
 "``TimeoutExpired`` exception will be raised. ``timeinterval`` is workable"
@@ -59,32 +61,32 @@ msgstr ""
 "如果在 ``timeout`` 秒后进程没有退出，将会抛出 ``TimeoutExpired`` 异常。``timeinterval`` "
 "在Python 2中给定 timeout时生效。它表示进程状态检查时间间隔。"
 
-#: ../../cmd.rst:22
+#: ../../cmd.rst:24
 msgid ""
 "The child process is not killed if the timeout expires, so in order to "
 "cleanup properly a well-behaved application should kill the child process"
 " and finish communication."
 msgstr "如果超时了，子进程不会被杀掉。为了合理清除表现良好的应用，应该要杀掉子进程，并且结束通信。"
 
-#: ../../cmd.rst:31
+#: ../../cmd.rst:33
 msgid ""
 "Run cmd with English character sets environment, so that the output will "
 "be in English. Parameters are same with ``run``."
 msgstr "在英文字符集环境下运行命令，从而得到英文输出。参数同 ``run``。"
 
-#: ../../cmd.rst:38
+#: ../../cmd.rst:40
 msgid "Terminate process by given ``pid``."
 msgstr "根据给定 ``pid`` 终止进程。"
 
-#: ../../cmd.rst:40
+#: ../../cmd.rst:42
 msgid ""
 "On Windows, using `kernel32.TerminateProcess` to kill. On other "
 "platforms, using `os.kill` with `signal.SIGTERM` to kill."
 msgstr ""
-"在Windows上，使用 `kernel32.TerminateProcess` 来终止。"
-"在其他平台上，使用携带 `signal.SIGTERM` 信号的 `os.kill` 来终止。"
+"在Windows上，使用 `kernel32.TerminateProcess` 来终止。在其他平台上，使用携带 `signal.SIGTERM`"
+" 信号的 `os.kill` 来终止。"
 
-#: ../../cmd.rst:46
+#: ../../cmd.rst:48
 msgid ""
 "Get command line argv of self python process. On Windows when using "
 "Python 2, ``cmdline_argv`` is implemented by using "
@@ -94,7 +96,7 @@ msgstr ""
 "获取当前Python进程的命令行参数。在Windows上使用Python 2时， ``cmdline_argv`` 的实现是基于 "
 "``shell32.GetCommandLineArgvW`` 获取列表元素为Unicode字符串形式的sys.argv。"
 
-#: ../../cmd.rst:50
+#: ../../cmd.rst:52
 msgid ""
 "On other platforms or using Python 3, ``cmdline_argv`` is same to "
 "``sys.argv``."
