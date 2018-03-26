@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-10 13:15+0800\n"
+"POT-Creation-Date: 2018-03-26 23:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,14 @@ msgid ""
 "when exiting the context manager."
 msgstr "保存先前的环境变量（如果有），并在退出上下文管理器时还原。"
 
-#: ../../environ.rst:23
+#: ../../environ.rst:14
+msgid ""
+"If given variable_name=None, it means removing the variable from "
+"environment temporarily."
+msgstr ""
+"如果给定 variable_name=None，表示从环境变量中临时移除该变量。"
+
+#: ../../environ.rst:26
 msgid ""
 "Context manager for updating the PATH environment variable which appends,"
 " prepends or replaces the PATH with given string or a list of strings."
