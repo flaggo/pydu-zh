@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pydu \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-26 23:29+0800\n"
+"POT-Creation-Date: 2018-03-26 23:34+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,4 +181,8 @@ msgstr "设置活动代码页号的上下文管理器。它也能够被当做函
 #: ../../system.rst:195
 msgid "``chcp`` can only be used on ``Windows`` system."
 msgstr "``chcp`` 只能用于 ``Windows`` 系统。"
+
+#: ../../system.rst:200
+msgid "Get best encoding for the system."
+msgstr "以最佳的方式获取系统编码。"
 
